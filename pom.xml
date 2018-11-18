@@ -7,14 +7,17 @@
     <groupId>educat</groupId>
     <artifactId>educat</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
-        <module>account</module>
-        <module>post-editor</module>
-        <module>data-access</module>
-        <module>post-manager</module>
+        <module>account-module</module>
+        <module>post-editor-module</module>
+        <module>data-access-module</module>
+        <module>post-manager-module</module>
         <module>notification-module</module>
         <module>messaging-module</module>
+        <module>registration-module</module>
     </modules>
+
     <packaging>pom</packaging>
 
 
