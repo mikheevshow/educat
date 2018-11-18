@@ -7,6 +7,7 @@
     <groupId>educat</groupId>
     <artifactId>educat</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>account-module</module>
@@ -17,13 +18,17 @@
         <module>messaging-module</module>
         <module>registration-module</module>
         <module>video-stream-module</module>
+        <module>pay-module</module>
     </modules>
 
-    <packaging>pom</packaging>
-
     <dependencies>
-
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
 
 </project>

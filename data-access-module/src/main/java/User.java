@@ -6,6 +6,7 @@ import java.time.OffsetDateTime;
  */
 public class User {
 
+    private Integer id;
     private String firstName;
     private String secondName;
     private String middleName; //Optional parameter
