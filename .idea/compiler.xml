@@ -6,13 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="account-module" />
-        <module name="data-access-module" />
+        <module name="account" />
+        <module name="data-access" />
         <module name="messaging-module" />
         <module name="notification-module" />
-        <module name="post-editor-module" />
-        <module name="post-manager-module" />
+        <module name="post-editor" />
+        <module name="post-manager" />
+        <module name="registration-module" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-module" target="1.5" />
+      <module name="data-access-module" target="1.5" />
+      <module name="post-editor-module" target="1.5" />
+      <module name="post-manager-module" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
