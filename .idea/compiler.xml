@@ -13,13 +13,8 @@
         <module name="post-editor" />
         <module name="post-manager" />
         <module name="registration-module" />
+        <module name="video-stream-module" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="account-module" target="1.5" />
-      <module name="data-access-module" target="1.5" />
-      <module name="post-editor-module" target="1.5" />
-      <module name="post-manager-module" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
