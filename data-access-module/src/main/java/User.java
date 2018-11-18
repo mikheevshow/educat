@@ -5,7 +5,6 @@ import java.time.OffsetDateTime;
  * Карточка пользователя портала
  */
 public class User {
-
     private Integer id;
     private String firstName;
     private String secondName;
@@ -16,6 +15,4 @@ public class User {
     private LocalDate birthDate;
     private OffsetDateTime registrationDate;
     private Boolean sendNotifications;
-
-
 }

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pay-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-module/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,14 +37,14 @@
         <counts>
           <entry key="java" value="557" />
           <entry key="md" value="251" />
-          <entry key="xml" value="77" />
+          <entry key="xml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="557" />
           <entry key="Markdown" value="251" />
-          <entry key="XML" value="77" />
+          <entry key="XML" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -103,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pay-module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -187,6 +181,7 @@
         <option value="$PROJECT_DIR$/data-access-module/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
+        <option value="$PROJECT_DIR$/pay-module/pom.xml" />
       </list>
     </option>
   </component>
@@ -210,8 +205,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="51" />
+    <option name="x" value="102" />
+    <option name="y" value="23" />
     <option name="width" value="1641" />
     <option name="height" value="806" />
   </component>
@@ -257,6 +252,14 @@
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
               <item name="messaging-module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542571649233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542572619923" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -304,16 +307,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542551584399</updated>
-      <workItem from="1542551587831" duration="6605000" />
+      <workItem from="1542551587831" duration="7358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6605000" />
+    <option name="totallyTimeSpent" value="7358000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="51" width="1641" height="806" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -335,7 +346,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Maven Projects" />
@@ -457,6 +468,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -464,13 +482,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -527,12 +538,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>video-stream-module</last-edited>
+          <last-edited>account-module</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.20512821" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -552,6 +562,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
