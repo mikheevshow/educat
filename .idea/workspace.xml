@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/registration-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -35,23 +36,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="47" />
+          <entry key="java" value="196" />
+          <entry key="md" value="251" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="47" />
+          <entry key="JAVA" value="196" />
+          <entry key="Markdown" value="251" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
+          <entry key="java" value="2" />
+          <entry key="md" value="1" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -59,18 +68,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -112,18 +128,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6776" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/educat.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="50" selection-start-column="50" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,7 +164,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
       </list>
     </option>
   </component>
@@ -170,6 +206,61 @@
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="account-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UserStatus" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="messaging-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="notification-module" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -180,12 +271,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542560003013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542561277033" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.14965986" />
+    <property name="project.structure.side.proportion" value="0.20512821" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,12 +300,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542551584399</updated>
-      <workItem from="1542551587831" duration="1723000" />
+      <workItem from="1542551587831" duration="3649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1723000" />
+    <option name="totallyTimeSpent" value="3649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1641" height="806" extended-state="0" />
@@ -225,9 +316,9 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Azure Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24953096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24953096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -282,23 +373,9 @@
     <entry file="file://$PROJECT_DIR$/educat.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6776" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
@@ -316,10 +393,52 @@
     <entry file="file://$PROJECT_DIR$/post-manager-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
         </state>
       </provider>
     </entry>

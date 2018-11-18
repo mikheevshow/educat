@@ -16,9 +16,14 @@
         <module>notification-module</module>
         <module>messaging-module</module>
         <module>registration-module</module>
+        <module>video-stream-module</module>
     </modules>
 
     <packaging>pom</packaging>
+
+    <dependencies>
+
+    </dependencies>
 
 
 </project>
