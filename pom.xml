@@ -9,6 +9,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>account</module>
+        <module>post-editor</module>
+        <module>data-access</module>
+        <module>post-manager</module>
+        <module>notification-module</module>
+        <module>messaging-module</module>
     </modules>
     <packaging>pom</packaging>
 
