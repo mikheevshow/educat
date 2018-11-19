@@ -23,6 +23,10 @@
         <module>registration-module</module>
         <module>video-stream-module</module>
         <module>pay-module</module>
+        <module>post-module</module>
+        <module>authorization-module</module>
+        <module>public-api-module</module>
+        <module>issues-bank-module</module>
     </modules>
 
     <dependencies>

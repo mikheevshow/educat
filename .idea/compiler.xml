@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="account-module" />
+        <module name="authorization-module" />
         <module name="data-access-module" />
+        <module name="issues-bank-module" />
         <module name="messaging-module" />
         <module name="notification-module" />
         <module name="pay-module" />
-        <module name="post-editor" />
-        <module name="post-manager" />
+        <module name="post-editor-module" />
+        <module name="post-manager-module" />
+        <module name="post-module" />
+        <module name="public-api-module" />
         <module name="registration-module" />
         <module name="video-stream-module" />
       </profile>
