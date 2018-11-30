@@ -1,7 +1,11 @@
 import java.time.OffsetDateTime;
 import java.util.Map;
 
+//@Entity
 public class MultiAnswerIssue extends AbstractIssue {
+
+    //@
+    private long id;
 
     private final Map<String, String> answers;
 

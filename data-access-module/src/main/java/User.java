@@ -4,6 +4,7 @@ import java.time.OffsetDateTime;
 /**
  * Карточка пользователя портала
  */
+
 public class User {
     private Integer id;
     private String firstName;
