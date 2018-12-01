@@ -1,5 +1,3 @@
-import javafx.geometry.Pos;
-
 import java.util.List;
 
 /**
@@ -22,6 +20,41 @@ public interface Postable {
     public List<Post> getPostsByIDs(Long[] IDs);
 
 
-    public void addPost(Post post);
+    /**
+     * Посылает пост на модерацию и присваивает посту сатус "ON_MODERATION"
+     * @param post - пост
+     * @return - сообщение об успшности/неуспешности отправки на модерацию
+     */
+    public String sendPostToModeration(Post post);
+
+    /**
+     * Посылает пост на модерацию и присваивает посту сатус "ON_MODERATION"(на модерации)
+     * @param id - уникальный номер поста в базе данных
+     * @return
+     */
+    public String sendPostToModeration(Long id);
+
+    /**
+     * Публикует пост в ленте и присваевает ему статус "PUBLISHED"(опубликованный)
+     * @param post
+     */
+    public void publishPost(Post post);
+
+
+    /**
+     * Удаляет пост и присваивает ссылающемуся на него id в базе данных в соответстующей таблице статус "DELETED"(удаленный)
+     * @param post - пост
+     * @param permissions - права пользователя, который потается удалить пост
+     */
+     public void deletePost(Post post, UserPostEditPermissions permissions);
+
+
+     public void deletePost(long id, UserPostEditPermissions permissions);
+
+     /**
+     * Добавляет новый пост в личное пространство Редактора(в данном случае в личное пространство человека,
+     * котрый хочет написать пост) и присваевает посту статус "ON_EDIT"(на редактировании)
+     */
+    public Post addPost();
 
 }

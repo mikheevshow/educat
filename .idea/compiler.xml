@@ -9,17 +9,20 @@
         <module name="account-module" />
         <module name="authorization-module" />
         <module name="data-access-module" />
+        <module name="educat-core-module" />
         <module name="issues-bank-module" />
         <module name="messaging-module" />
         <module name="notification-module" />
         <module name="pay-module" />
         <module name="post-editor-module" />
-        <module name="post-manager-module" />
-        <module name="post-module" />
+        <module name="post-module-api" />
         <module name="public-api-module" />
         <module name="registration-module" />
         <module name="video-stream-module" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="post-manager-module" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
