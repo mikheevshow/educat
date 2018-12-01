@@ -4,30 +4,17 @@ import java.util.List;
 
 //@Entity
 public class Post implements Postable, Serializable {
+
+    private final long id;
     private final String postText;
     private final LocalDate creationDate;
     private final Author author;
 
-    public Post(String postText, LocalDate creationDate, Author author) {
+    public Post(long id, String postText, LocalDate creationDate, Author author) {
+        this.id = id;
         this.postText = postText;
         this.creationDate = creationDate;
         this.author = author;
-    }
-
-
-    @Override
-    public Post getPostById(double id) {
-        return null;
-    }
-
-    @Override
-    public List<Post> getPostsByIDs(Long[] IDs) {
-        return null;
-    }
-
-    @Override
-    public void addPost(Post post) {
-
     }
 
     public String getPostText() {

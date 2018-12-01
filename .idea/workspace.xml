@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostEditorPermissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,34 +54,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="12" />
-          <entry key="java" value="1767" />
+          <entry key="dummy" value="16" />
+          <entry key="java" value="3338" />
           <entry key="md" value="273" />
           <entry key="xml" value="232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1767" />
+          <entry key="JAVA" value="3338" />
           <entry key="Markdown" value="273" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="2" />
-          <entry key="java" value="16" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="20" />
           <entry key="md" value="2" />
-          <entry key="xml" value="32" />
+          <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="16" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="20" />
           <entry key="Markdown" value="2" />
-          <entry key="XML" value="32" />
+          <entry key="XML" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -93,32 +90,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/educat-core-module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+            <state relative-caret-position="144">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -136,49 +119,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java">
+        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="54">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
+        <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post-module/post-module.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            <state relative-caret-position="432">
+              <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostEditorPermissions.java">
+        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -219,12 +204,16 @@
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/post-module/pom.xml" />
         <option value="$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/EditorPermissions.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" />
+        <option value="$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" />
       </list>
     </option>
   </component>
@@ -248,7 +237,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
+    <option name="x" value="135" />
     <option name="y" value="23" />
     <option name="width" value="1641" />
     <option name="height" value="931" />
@@ -315,22 +304,31 @@
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
               <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
+              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Post" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="post-module" type="462c0819:PsiDirectoryNode" />
+              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Postable" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="post-module" type="462c0819:PsiDirectoryNode" />
+              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PostStatus" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +343,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543618462630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543700739275" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -403,12 +401,12 @@
       <workItem from="1543612869241" duration="80000" />
       <workItem from="1543612965404" duration="27000" />
       <workItem from="1543614129066" duration="2475000" />
-      <workItem from="1543671680433" duration="1174000" />
+      <workItem from="1543671680433" duration="3604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17198000" />
+    <option name="totallyTimeSpent" value="19628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +418,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="23" width="1641" height="931" extended-state="0" />
+    <frame x="135" y="23" width="1641" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2263915" />
@@ -438,7 +436,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20608108" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4087838" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -546,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authorization-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -619,34 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public-api-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -671,19 +638,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -695,37 +720,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostEditorPermissions.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
+    <entry file="file://$PROJECT_DIR$/messaging-module/src/main/java/Chat.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
