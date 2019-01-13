@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educatdb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,134 +41,247 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-306596717">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="16" />
-          <entry key="java" value="3338" />
-          <entry key="md" value="273" />
-          <entry key="xml" value="232" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3338" />
-          <entry key="Markdown" value="273" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="XML" value="232" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="iml" value="3" />
-          <entry key="java" value="20" />
-          <entry key="md" value="2" />
-          <entry key="xml" value="34" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="20" />
-          <entry key="Markdown" value="2" />
-          <entry key="XML" value="34" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="accounts: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml">
+        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="198">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
+        <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="162">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
+        <entry file="file://$PROJECT_DIR$/educatdb.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="266">
+              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="340">
+              <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public</OriginalElement>
+              <nodes>
+                <node x="919.75" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
+                <node x="727.75" y="646.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
+                <node x="472.75000000000006" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
+                <node x="793.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
+                <node x="297.0" y="821.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
+                <node x="68.5" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
+                <node x="0.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
+                <node x="263.00000000000006" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
+                <node x="347.50000000000006" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
+                <node x="654.0" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
+                <node x="536.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
+                <node x="85.5" y="957.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
+                <node x="233.5" y="1192.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
+                <node x="573.0" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
+                <node x="966.75" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
+                <node x="0.0" y="389.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements">
+                  <point x="51.0" y="-59.5" />
+                  <point x="0.0" y="59.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+                  <point x="53.0" y="-81.5" />
+                  <point x="227.5" y="572.0" />
+                  <point x="605.25" y="572.0" />
+                  <point x="-96.75" y="114.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type">
+                  <point x="-53.0" y="-81.5" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks">
+                  <point x="-41.75" y="-59.0" />
+                  <point x="275.25" y="1167.0" />
+                  <point x="191.5" y="1167.0" />
+                  <point x="0.0" y="92.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+                  <point x="-51.0" y="-59.5" />
+                  <point x="970.75" y="572.0" />
+                  <point x="798.75" y="572.0" />
+                  <point x="96.75" y="114.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories">
+                  <point x="-53.0" y="-92.5" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users">
+                  <point x="64.5" y="-114.5" />
+                  <point x="0.0" y="136.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
+                  <point x="-64.5" y="-114.5" />
+                  <point x="637.5" y="298.0" />
+                  <point x="529.0" y="298.0" />
+                  <point x="60.5" y="48.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
+                  <point x="53.0" y="-92.5" />
+                  <point x="244.5" y="932.0" />
+                  <point x="345.5" y="932.0" />
+                  <point x="-48.5" y="37.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+                  <point x="0.0" y="-37.0" />
+                  <point x="813.75" y="582.0" />
+                  <point x="734.25" y="582.0" />
+                  <point x="32.25" y="114.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+                  <point x="0.0" y="-70.5" />
+                  <point x="590.25" y="582.0" />
+                  <point x="669.75" y="582.0" />
+                  <point x="-32.25" y="114.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
+                  <point x="41.75" y="-59.0" />
+                  <point x="358.75" y="1167.0" />
+                  <point x="442.5" y="1167.0" />
+                  <point x="48.500000000000014" y="37.5" />
+                </edge>
+                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
+                  <point x="0.0" y="-59.5" />
+                  <point x="-60.5" y="48.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.4421052631578947" x="-189.7261904761906" y="522.8571428571429" />
+              <SelectedNodes>
+                <node>3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Columns</Category>
+                <Category>Key columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="55" selection-start-column="55" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -201,33 +319,29 @@
         <option value="$PROJECT_DIR$/post-module/src/main/java/Post.java" />
         <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/AbstractIssue.java" />
         <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/MultiAnswerIssue.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/post-module/pom.xml" />
         <option value="$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/EditorPermissions.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" />
         <option value="$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
+        <option value="$PROJECT_DIR$/educatdb.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -237,9 +351,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
+    <option name="x" value="69" />
     <option name="y" value="23" />
-    <option name="width" value="1641" />
+    <option name="width" value="1466" />
     <option name="height" value="931" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -250,100 +364,14 @@
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Post" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Postable" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module" type="462c0819:PsiDirectoryNode" />
-              <item name="post-module-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PostStatus" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543700739275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546973327437" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -401,12 +429,19 @@
       <workItem from="1543612869241" duration="80000" />
       <workItem from="1543612965404" duration="27000" />
       <workItem from="1543614129066" duration="2475000" />
-      <workItem from="1543671680433" duration="3604000" />
+      <workItem from="1543671680433" duration="5411000" />
+      <workItem from="1546154799927" duration="707000" />
+      <workItem from="1546192363071" duration="1292000" />
+      <workItem from="1546424829575" duration="599000" />
+      <workItem from="1546957868702" duration="83000" />
+      <workItem from="1546958007923" duration="3583000" />
+      <workItem from="1547064603979" duration="1811000" />
+      <workItem from="1547322048331" duration="4681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19628000" />
+    <option name="totallyTimeSpent" value="34191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,10 +453,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="23" width="1641" height="931" extended-state="0" />
+    <frame x="697" y="464" width="1466" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2263915" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4879581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,6 +464,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Azure Explorer" order="7" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.38602942" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -436,7 +472,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4087838" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29153606" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -445,15 +481,18 @@
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="13" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="14" />
       <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32935393" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25265792" />
@@ -491,9 +530,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/notification-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -512,13 +548,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/post-module/post-manager-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/azureSettings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -558,29 +587,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/issues-bank-module/src/main/java/AbstractIssue.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -593,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -645,54 +650,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Post.java" />
+    <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Author.java" />
+    <entry file="file://$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
     <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -703,12 +663,9 @@
     <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -720,23 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messaging-module/src/main/java/Chat.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -744,17 +684,205 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module.iml" />
     <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="36">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="198">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educatdb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public</OriginalElement>
+          <nodes>
+            <node x="919.75" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
+            <node x="727.75" y="646.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
+            <node x="472.75000000000006" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
+            <node x="793.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
+            <node x="297.0" y="821.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
+            <node x="68.5" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
+            <node x="0.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
+            <node x="263.00000000000006" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
+            <node x="347.50000000000006" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
+            <node x="654.0" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
+            <node x="536.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
+            <node x="85.5" y="957.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
+            <node x="233.5" y="1192.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
+            <node x="573.0" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
+            <node x="966.75" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
+            <node x="0.0" y="389.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements">
+              <point x="51.0" y="-59.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="53.0" y="-81.5" />
+              <point x="227.5" y="572.0" />
+              <point x="605.25" y="572.0" />
+              <point x="-96.75" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type">
+              <point x="-53.0" y="-81.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks">
+              <point x="-41.75" y="-59.0" />
+              <point x="275.25" y="1167.0" />
+              <point x="191.5" y="1167.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="-51.0" y="-59.5" />
+              <point x="970.75" y="572.0" />
+              <point x="798.75" y="572.0" />
+              <point x="96.75" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories">
+              <point x="-53.0" y="-92.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users">
+              <point x="64.5" y="-114.5" />
+              <point x="0.0" y="136.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
+              <point x="-64.5" y="-114.5" />
+              <point x="637.5" y="298.0" />
+              <point x="529.0" y="298.0" />
+              <point x="60.5" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
+              <point x="53.0" y="-92.5" />
+              <point x="244.5" y="932.0" />
+              <point x="345.5" y="932.0" />
+              <point x="-48.5" y="37.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="0.0" y="-37.0" />
+              <point x="813.75" y="582.0" />
+              <point x="734.25" y="582.0" />
+              <point x="32.25" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="0.0" y="-70.5" />
+              <point x="590.25" y="582.0" />
+              <point x="669.75" y="582.0" />
+              <point x="-32.25" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
+              <point x="41.75" y="-59.0" />
+              <point x="358.75" y="1167.0" />
+              <point x="442.5" y="1167.0" />
+              <point x="48.500000000000014" y="37.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
+              <point x="0.0" y="-59.5" />
+              <point x="-60.5" y="48.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4421052631578947" x="-189.7261904761906" y="522.8571428571429" />
+          <SelectedNodes>
+            <node>3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
         </state>
       </provider>
     </entry>

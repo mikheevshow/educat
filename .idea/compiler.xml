@@ -16,6 +16,7 @@
         <module name="pay-module" />
         <module name="post-editor-module" />
         <module name="post-module-api" />
+        <module name="public-api" />
         <module name="public-api-module" />
         <module name="registration-module" />
         <module name="video-stream-module" />

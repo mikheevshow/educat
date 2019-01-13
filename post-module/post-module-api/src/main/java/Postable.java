@@ -60,3 +60,5 @@ public interface Postable {
     public Post addPost();
 
 }
+
+// Нужно ввести батчевую загрузку постов
