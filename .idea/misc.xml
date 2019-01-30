@@ -10,6 +10,22 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/authorization-module/pom.xml" />
+        <option value="$PROJECT_DIR$/educat-core-module/pom.xml" />
+        <option value="$PROJECT_DIR$/issues-bank-module/pom.xml" />
+        <option value="$PROJECT_DIR$/messaging-module/pom.xml" />
+        <option value="$PROJECT_DIR$/notification-module/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-module/pom.xml" />
+        <option value="$PROJECT_DIR$/post-module/pom.xml" />
+        <option value="$PROJECT_DIR$/post-module/post-editor-module/pom.xml" />
+        <option value="$PROJECT_DIR$/post-module/post-module-api/pom.xml" />
+        <option value="$PROJECT_DIR$/public-api-module/pom.xml" />
+        <option value="$PROJECT_DIR$/registration-module/pom.xml" />
+        <option value="$PROJECT_DIR$/video-stream-module/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="10" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

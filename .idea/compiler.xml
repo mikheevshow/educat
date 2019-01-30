@@ -6,24 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="account-module" />
-        <module name="authorization-module" />
         <module name="data-access-module" />
-        <module name="educat-core-module" />
-        <module name="issues-bank-module" />
-        <module name="messaging-module" />
-        <module name="notification-module" />
-        <module name="pay-module" />
-        <module name="post-editor-module" />
-        <module name="post-module-api" />
-        <module name="public-api" />
         <module name="public-api-module" />
-        <module name="registration-module" />
-        <module name="video-stream-module" />
+        <module name="service-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="authorization-module" target="1.8" />
+      <module name="educat-core-module" target="1.8" />
+      <module name="issues-bank-module" target="1.8" />
+      <module name="messaging-module" target="1.8" />
+      <module name="notification-module" target="1.8" />
+      <module name="pay-module" target="1.8" />
+      <module name="post-editor-module" target="1.8" />
       <module name="post-manager-module" target="1.8" />
+      <module name="post-module" target="1.8" />
+      <module name="post-module-api" target="1.8" />
+      <module name="public-api" target="1.8" />
+      <module name="registration-module" target="1.8" />
+      <module name="video-stream-module" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

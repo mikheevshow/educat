@@ -2,16 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/educatdb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" beforeDir="false" afterPath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educat-core-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issues-bank-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issues-bank-module/src/main/java/AbstractIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/issues-bank-module/src/main/java/MultiAnswerIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/issues-bank-module/src/main/java/RegularIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-editor-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public-api-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-stream-module/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,15 +114,6 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="accounts: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -103,185 +122,164 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/educatdb.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+            <state relative-caret-position="1672">
+              <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+                <element signature="e#1751#1752#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1866#1867#0" expanded="true" />
+                <element signature="e#1919#1920#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+                <element signature="e#2012#2013#0" expanded="true" />
+                <element signature="e#2051#2052#0" expanded="true" />
+                <element signature="e#2123#2124#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2224#2225#0" expanded="true" />
+                <element signature="e#2264#2265#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2389#2390#0" expanded="true" />
+                <element signature="e#2435#2436#0" expanded="true" />
+                <element signature="e#2467#2468#0" expanded="true" />
+                <element signature="e#2527#2528#0" expanded="true" />
+                <element signature="e#2569#2570#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+            <state relative-caret-position="72">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public</OriginalElement>
-              <nodes>
-                <node x="919.75" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
-                <node x="727.75" y="646.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
-                <node x="472.75000000000006" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
-                <node x="793.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
-                <node x="297.0" y="821.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
-                <node x="68.5" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
-                <node x="0.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
-                <node x="263.00000000000006" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
-                <node x="347.50000000000006" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
-                <node x="654.0" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
-                <node x="536.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
-                <node x="85.5" y="957.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
-                <node x="233.5" y="1192.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
-                <node x="573.0" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
-                <node x="966.75" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
-                <node x="0.0" y="389.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements">
-                  <point x="51.0" y="-59.5" />
-                  <point x="0.0" y="59.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-                  <point x="53.0" y="-81.5" />
-                  <point x="227.5" y="572.0" />
-                  <point x="605.25" y="572.0" />
-                  <point x="-96.75" y="114.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type">
-                  <point x="-53.0" y="-81.5" />
-                  <point x="0.0" y="48.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks">
-                  <point x="-41.75" y="-59.0" />
-                  <point x="275.25" y="1167.0" />
-                  <point x="191.5" y="1167.0" />
-                  <point x="0.0" y="92.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-                  <point x="-51.0" y="-59.5" />
-                  <point x="970.75" y="572.0" />
-                  <point x="798.75" y="572.0" />
-                  <point x="96.75" y="114.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories">
-                  <point x="-53.0" y="-92.5" />
-                  <point x="0.0" y="48.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users">
-                  <point x="64.5" y="-114.5" />
-                  <point x="0.0" y="136.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
-                  <point x="-64.5" y="-114.5" />
-                  <point x="637.5" y="298.0" />
-                  <point x="529.0" y="298.0" />
-                  <point x="60.5" y="48.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
-                  <point x="53.0" y="-92.5" />
-                  <point x="244.5" y="932.0" />
-                  <point x="345.5" y="932.0" />
-                  <point x="-48.5" y="37.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-                  <point x="0.0" y="-37.0" />
-                  <point x="813.75" y="582.0" />
-                  <point x="734.25" y="582.0" />
-                  <point x="32.25" y="114.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-                  <point x="0.0" y="-70.5" />
-                  <point x="590.25" y="582.0" />
-                  <point x="669.75" y="582.0" />
-                  <point x="-32.25" y="114.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
-                  <point x="41.75" y="-59.0" />
-                  <point x="358.75" y="1167.0" />
-                  <point x="442.5" y="1167.0" />
-                  <point x="48.500000000000014" y="37.5" />
-                </edge>
-                <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
-                  <point x="0.0" y="-59.5" />
-                  <point x="-60.5" y="48.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.4421052631578947" x="-189.7261904761906" y="522.8571428571429" />
-              <SelectedNodes>
-                <node>3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Columns</Category>
-                <Category>Key columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Session.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2970">
+              <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -306,12 +304,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java" />
         <option value="$PROJECT_DIR$/data-access-module/pom.xml" />
         <option value="$PROJECT_DIR$/pay-module/pom.xml" />
-        <option value="$PROJECT_DIR$/account-module/pom.xml" />
         <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/Issue.java" />
         <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/TestIssue.java" />
         <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/RegularIssue.java" />
@@ -321,8 +317,6 @@
         <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/MultiAnswerIssue.java" />
         <option value="$PROJECT_DIR$/post-module/pom.xml" />
         <option value="$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/EditorPermissions.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java" />
         <option value="$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
@@ -331,9 +325,31 @@
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
-        <option value="$PROJECT_DIR$/educatdb.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql" />
+        <option value="$PROJECT_DIR$/educatdb.sql" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/User.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java" />
+        <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/user/Hello.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserOperations.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/User.java" />
+        <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserService.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" />
+        <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" />
+        <option value="$PROJECT_DIR$/account-module/pom.xml" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Postable.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java" />
       </list>
     </option>
   </component>
@@ -351,7 +367,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
+    <option name="x" value="38" />
     <option name="y" value="23" />
     <option name="width" value="1466" />
     <option name="height" value="931" />
@@ -364,14 +380,173 @@
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="account-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="Issues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="Post" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546973327437" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548864304742" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -436,12 +611,16 @@
       <workItem from="1546957868702" duration="83000" />
       <workItem from="1546958007923" duration="3583000" />
       <workItem from="1547064603979" duration="1811000" />
-      <workItem from="1547322048331" duration="4681000" />
+      <workItem from="1547322048331" duration="6766000" />
+      <workItem from="1547491592897" duration="600000" />
+      <workItem from="1547501769137" duration="24000" />
+      <workItem from="1548672324107" duration="2606000" />
+      <workItem from="1548787593009" duration="5805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34191000" />
+    <option name="totallyTimeSpent" value="45311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,10 +632,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="697" y="464" width="1466" height="931" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="23" width="1466" height="931" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4879581" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3588483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -464,7 +642,6 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Azure Explorer" order="7" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.38602942" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -472,7 +649,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29153606" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17524509" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -483,13 +660,15 @@
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.17156863" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32935393" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32935393" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
@@ -531,23 +710,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notification-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educat.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-manager-module/pom.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/azureSettings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -573,48 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/src/main/java/AbstractIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/src/main/java/RegularIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/src/main/java/MultiAnswerIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public-api-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -629,27 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educat-core-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Post.java" />
     <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Author.java" />
     <entry file="file://$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
@@ -657,23 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -685,116 +767,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post-module/post-module.iml" />
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educatdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>DATABASE</ID>
           <OriginalElement>3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public</OriginalElement>
           <nodes>
-            <node x="919.75" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
-            <node x="727.75" y="646.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
-            <node x="472.75000000000006" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
-            <node x="793.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
-            <node x="297.0" y="821.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
-            <node x="68.5" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
-            <node x="0.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
-            <node x="263.00000000000006" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
-            <node x="347.50000000000006" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
-            <node x="654.0" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
-            <node x="536.0" y="810.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
-            <node x="85.5" y="957.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
-            <node x="233.5" y="1192.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
-            <node x="573.0" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
-            <node x="966.75" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
+            <node x="1063.8909090909092" y="635.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
+            <node x="616.8909090909091" y="657.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
+            <node x="263.8909090909091" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
+            <node x="297.0" y="843.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
+            <node x="343.1409090909091" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
+            <node x="68.5" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
+            <node x="0.0" y="832.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
+            <node x="536.0" y="832.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
+            <node x="348.3909090909091" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
+            <node x="654.8909090909091" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
+            <node x="808.8909090909091" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
+            <node x="85.5" y="979.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
+            <node x="233.5" y="1214.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
+            <node x="573.8909090909091" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
+            <node x="1110.8909090909092" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
             <node x="0.0" y="389.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type</node>
           </nodes>
           <notes />
@@ -806,8 +799,8 @@
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
               <point x="53.0" y="-81.5" />
               <point x="227.5" y="572.0" />
-              <point x="605.25" y="572.0" />
-              <point x="-96.75" y="114.5" />
+              <point x="599.690909090909" y="572.0" />
+              <point x="-103.20000000000005" y="114.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type">
               <point x="-53.0" y="-81.5" />
@@ -815,15 +808,15 @@
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks">
               <point x="-41.75" y="-59.0" />
-              <point x="275.25" y="1167.0" />
-              <point x="191.5" y="1167.0" />
+              <point x="275.25" y="1189.0" />
+              <point x="191.5" y="1189.0" />
               <point x="0.0" y="92.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
               <point x="-51.0" y="-59.5" />
-              <point x="970.75" y="572.0" />
-              <point x="798.75" y="572.0" />
-              <point x="96.75" y="114.5" />
+              <point x="1114.8909090909092" y="572.0" />
+              <point x="806.090909090909" y="572.0" />
+              <point x="103.19999999999993" y="114.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories">
               <point x="-53.0" y="-92.5" />
@@ -835,54 +828,367 @@
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
               <point x="-64.5" y="-114.5" />
-              <point x="637.5" y="298.0" />
-              <point x="529.0" y="298.0" />
+              <point x="638.3909090909091" y="298.0" />
+              <point x="529.8909090909091" y="298.0" />
               <point x="60.5" y="48.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
               <point x="53.0" y="-92.5" />
-              <point x="244.5" y="932.0" />
-              <point x="345.5" y="932.0" />
+              <point x="244.5" y="954.0" />
+              <point x="345.5" y="954.0" />
               <point x="-48.5" y="37.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
               <point x="0.0" y="-37.0" />
-              <point x="813.75" y="582.0" />
-              <point x="734.25" y="582.0" />
-              <point x="32.25" y="114.5" />
+              <point x="0.0" y="114.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
               <point x="0.0" y="-70.5" />
-              <point x="590.25" y="582.0" />
-              <point x="669.75" y="582.0" />
-              <point x="-32.25" y="114.5" />
+              <point x="926.3909090909091" y="582.0" />
+              <point x="754.4909090909091" y="582.0" />
+              <point x="51.60000000000002" y="114.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
               <point x="41.75" y="-59.0" />
-              <point x="358.75" y="1167.0" />
-              <point x="442.5" y="1167.0" />
+              <point x="358.75" y="1189.0" />
+              <point x="442.5" y="1189.0" />
               <point x="48.500000000000014" y="37.5" />
             </edge>
             <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
               <point x="0.0" y="-59.5" />
               <point x="-60.5" y="48.5" />
             </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="0.0" y="-92.5" />
+              <point x="449.1409090909091" y="582.0" />
+              <point x="651.290909090909" y="582.0" />
+              <point x="-51.60000000000002" y="114.5" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.4421052631578947" x="-189.7261904761906" y="522.8571428571429" />
-          <SelectedNodes>
-            <node>3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="0.6306213017751479" x="-412.0" y="361.0" />
+          <SelectedNodes />
           <Categories>
-            <Category>Columns</Category>
             <Category>Key columns</Category>
+            <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+        <state>
+          <caret selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educat.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educatdb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educat-core-module/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/user/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserOperations.java" />
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorization-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2264#2265#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+            <element signature="e#2467#2468#0" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
