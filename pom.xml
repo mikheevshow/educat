@@ -14,19 +14,9 @@
     </properties>
 
     <modules>
-        <module>account-module</module>
-        <module>post-module</module>
         <module>data-access-module</module>
-        <module>notification-module</module>
-        <module>messaging-module</module>
-        <module>registration-module</module>
-        <module>video-stream-module</module>
-        <module>pay-module</module>
-        <module>post-module</module>
-        <module>authorization-module</module>
-        <module>public-api-module</module>
-        <module>issues-bank-module</module>
-        <module>educat-core-module</module>
+        <module>service-module</module>
+        <module>sql_migration</module>
     </modules>
 
     <dependencies>

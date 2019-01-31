@@ -2,44 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql_migration/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educat-core-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issues-bank-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/issues-bank-module/src/main/java/AbstractIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/issues-bank-module/src/main/java/MultiAnswerIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/issues-bank-module/src/main/java/RegularIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleAccessOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educatdb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-editor-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Postable.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-api-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-stream-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/PostServiceImpl.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,6 +51,8 @@
     <ignored path="$PROJECT_DIR$/post-module/post-module-api/target/" />
     <ignored path="$PROJECT_DIR$/post-module/post-editor-module/target/" />
     <ignored path="$PROJECT_DIR$/educat-core-module/target/" />
+    <ignored path="$PROJECT_DIR$/service-module/target/" />
+    <ignored path="$PROJECT_DIR$/sql_migration/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +104,24 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="articles: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tasks: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -122,125 +130,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-                <element signature="e#1662#1663#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1751#1752#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1961#1962#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2224#2225#0" expanded="true" />
-                <element signature="e#2264#2265#0" expanded="true" />
-                <element signature="e#2331#2332#0" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
-                <element signature="e#2435#2436#0" expanded="true" />
-                <element signature="e#2467#2468#0" expanded="true" />
-                <element signature="e#2527#2528#0" expanded="true" />
-                <element signature="e#2569#2570#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Session.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="257">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,28 +155,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -278,8 +166,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -304,23 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/UserOperations.java" />
-        <option value="$PROJECT_DIR$/data-access-module/pom.xml" />
-        <option value="$PROJECT_DIR$/pay-module/pom.xml" />
-        <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/Issue.java" />
-        <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/TestIssue.java" />
-        <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/RegularIssue.java" />
-        <option value="$PROJECT_DIR$/post-module/src/main/java/Author.java" />
-        <option value="$PROJECT_DIR$/post-module/src/main/java/Post.java" />
-        <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/AbstractIssue.java" />
-        <option value="$PROJECT_DIR$/issues-bank-module/src/main/java/MultiAnswerIssue.java" />
-        <option value="$PROJECT_DIR$/post-module/pom.xml" />
-        <option value="$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/EditorPermissions.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Author.java" />
-        <option value="$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
-        <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostStatus.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/PostAccessOptions.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/Post.java" />
         <option value="$PROJECT_DIR$/post-module/post-module-api/src/main/java/UserPostEditPermissions.java" />
@@ -339,17 +276,39 @@
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" />
         <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" />
         <option value="$PROJECT_DIR$/account-module/pom.xml" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Postable.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" />
+        <option value="$PROJECT_DIR$/service-module/pom.xml" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssueDAOImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" />
+        <option value="$PROJECT_DIR$/hibernate.properties" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/PostServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/PostService.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralIssueEntity.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Article.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleAccessOptions.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAO.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -367,9 +326,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="23" />
-    <option name="width" value="1466" />
+    <option name="x" value="61" />
+    <option name="y" value="592" />
+    <option name="width" value="1619" />
     <option name="height" value="931" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -381,18 +340,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="account-module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -481,19 +434,120 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-              <item name="Post" type="1a9f42e2:ClassTreeNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
               <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="PostService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="UGEService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -539,13 +593,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548864304742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548923754261" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -562,6 +617,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql_migration/src/main/resources" />
       <recent name="$PROJECT_DIR$/post-module" />
     </key>
   </component>
@@ -615,12 +671,13 @@
       <workItem from="1547491592897" duration="600000" />
       <workItem from="1547501769137" duration="24000" />
       <workItem from="1548672324107" duration="2606000" />
-      <workItem from="1548787593009" duration="5805000" />
+      <workItem from="1548787593009" duration="7068000" />
+      <workItem from="1548878827526" duration="5839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45311000" />
+    <option name="totallyTimeSpent" value="52413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,9 +689,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1466" height="931" extended-state="0" />
+    <frame x="61" y="592" width="1619" height="931" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3588483" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30944833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -649,7 +707,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17524509" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30392158" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -661,17 +719,17 @@
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.17156863" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32935393" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.24223208" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25265792" />
@@ -710,62 +768,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/azureSettings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-stream-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-api-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Post.java" />
     <entry file="file://$PROJECT_DIR$/post-module/src/main/java/Author.java" />
     <entry file="file://$PROJECT_DIR$/messaging-module/src/main/java/Chat.java" />
-    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-module-api/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/messaging-module/pom.xml" />
     <entry file="file://$PROJECT_DIR$/post-module/post-module.iml" />
     <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64.SCHEMA:educat_test_db.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -882,9 +889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml" />
     <entry file="file://$PROJECT_DIR$/educat.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -892,51 +897,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/educatdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/educat-core-module/pom.xml" />
     <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/user/Hello.java" />
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserOperations.java" />
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -944,62 +907,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/registration-module/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/authorization-module/pom.xml" />
     <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1007,27 +917,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" />
+    <entry file="file://$PROJECT_DIR$/post-module/pom.xml" />
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1035,31 +926,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Session.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="2970">
+          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/service-module.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="108">
+            <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        <state relative-caret-position="-1170">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostStatus.java">
+    <entry file="file://$PROJECT_DIR$/sql_migration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="288">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java">
+    <entry file="file://$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1072,122 +1012,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+        <state relative-caret-position="355">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
             <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
             <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1961#1962#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2435#2436#0" expanded="true" />
-            <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2527#2528#0" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostAccessOptions.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="108">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Session.class">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleAccessOptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java">
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="918">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="257">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
             <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

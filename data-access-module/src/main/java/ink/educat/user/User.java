@@ -4,6 +4,7 @@ import ink.educat.user.UserStatus;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.OffsetDateTime;
@@ -14,6 +15,7 @@ import java.util.Optional;
  */
 
 @Entity
+@Table(name = "USERS", schema = "PUBLIC")
 public class User implements Serializable {
 
     @Id
@@ -23,7 +25,7 @@ public class User implements Serializable {
 
     private String secondName;
 
-    private String middleName; //Optional parameter
+    private String middleName;
 
     private String email;
 

@@ -9,6 +9,7 @@
         <module name="data-access-module" />
         <module name="public-api-module" />
         <module name="service-module" />
+        <module name="sql_migration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

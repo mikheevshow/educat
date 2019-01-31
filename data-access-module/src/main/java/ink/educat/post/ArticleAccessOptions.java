@@ -3,7 +3,7 @@ package ink.educat.post;
 /**
  * Параметры доступа для поста
  */
-public enum PostAccessOptions {
+public enum ArticleAccessOptions {
 
     ALL("Доступен для всех"),
     FOR_USER_GROUP("Доступен для группы лиц"),
@@ -11,7 +11,7 @@ public enum PostAccessOptions {
 
     private String accessOption;
 
-    PostAccessOptions(String accessOption) {
+    ArticleAccessOptions(String accessOption) {
         this.accessOption = accessOption;
     }
 

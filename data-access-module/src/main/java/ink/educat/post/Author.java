@@ -1,5 +1,11 @@
 package ink.educat.post;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "AUTHORS", schema = "PUBLIC")
 public class Author {
 
     private String firstName;

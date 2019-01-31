@@ -3,7 +3,7 @@ package ink.educat.post;
 /**
  * Перечисление, отоображающее статус документа
  */
-public enum PostStatus {
+public enum ArticleStatus {
 
     NOT_FOUND("Пост не найден"),
     DELETED("Пост удален"),
@@ -13,7 +13,7 @@ public enum PostStatus {
     EDITED("Пост редактируется");
 
     private String status;
-    PostStatus(String status) {
+    ArticleStatus(String status) {
         this.status = status;
     }
 
