@@ -1,4 +1,4 @@
-package ink.educat.post;
+package ink.educat.article;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

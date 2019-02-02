@@ -1,7 +1,7 @@
 package ink.educat.services.ArticleService;
 
-import ink.educat.post.Article;
-import ink.educat.post.UserPostEditPermissions;
+import ink.educat.article.Article;
+import ink.educat.article.UserPostEditPermissions;
 
 /**
  * Сервис для работы с публикациями

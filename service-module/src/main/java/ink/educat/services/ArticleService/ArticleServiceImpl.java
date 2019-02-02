@@ -1,8 +1,8 @@
 package ink.educat.services.ArticleService;
 
-import ink.educat.post.Article;
-import ink.educat.post.ArticleDAO;
-import ink.educat.post.UserPostEditPermissions;
+import ink.educat.article.Article;
+import ink.educat.article.ArticleDAO;
+import ink.educat.article.UserPostEditPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

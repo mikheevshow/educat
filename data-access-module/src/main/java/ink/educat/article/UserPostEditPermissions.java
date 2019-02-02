@@ -1,4 +1,4 @@
-package ink.educat.post;
+package ink.educat.article;
 
 /**
  * Права пользователей, которые имеют право редактировать статьи

@@ -1,4 +1,4 @@
-package ink.educat.post;
+package ink.educat.article;
 
 /**
  * Параметры доступа для поста
