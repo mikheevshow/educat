@@ -2,6 +2,8 @@ package ink.educat.services.UGEService;
 
 import ink.educat.task.TaskDAO;
 import ink.educat.services.UserService.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,8 +14,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UGEServiceImpl implements UGEService {
 
+    private static final Logger logger = LoggerFactory.getLogger(UGEServiceImpl.class);
     private UserService userService;
-
     private TaskDAO taskDAO;
 
     @Autowired

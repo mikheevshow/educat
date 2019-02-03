@@ -1,11 +1,23 @@
 package ink.educat.task;
 
+import org.hibernate.SessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 
 @Repository
 public class TaskDAOImpl implements TaskDAO {
+
+    private static final Logger logger = LoggerFactory.getLogger(TaskDAOImpl.class);
+    private SessionFactory sessionFactory;
+
+    @Autowired
+    public TaskDAOImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
     @Override
     public GeneralTaskEntity findById(long id) {

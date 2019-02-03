@@ -5,6 +5,8 @@ import ink.educat.account.AccountStatus;
 import ink.educat.user.User;
 import ink.educat.user.UserDAO;
 import ink.educat.user.UserStatus;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +19,8 @@ import java.util.Collection;
 @Service
 public class UserServiceImpl implements UserService {
 
+    private static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
+
     private UserDAO userDAO;
 
     @Autowired
@@ -25,10 +29,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User findUserByPhone(String phone) {
+        return null;
+    }
+
+    @Override
     @Transactional
     public void blockUser(User user) {
         //TODO проверить работоспособность персистентности для агрегированных объектов
-        user.getAccount().setAccountStatus(AccountStatus.BLOCKED);
+        user.getAccount().setStatus(AccountStatus.BLOCKED);
         userDAO.saveOrUpdate(user);
     }
 

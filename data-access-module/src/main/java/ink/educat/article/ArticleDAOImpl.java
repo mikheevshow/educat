@@ -1,8 +1,21 @@
 package ink.educat.article;
 
+import org.hibernate.SessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.Collection;
 
 public class ArticleDAOImpl implements ArticleDAO {
+
+    private static final Logger logger = LoggerFactory.getLogger(ArticleDAOImpl.class);
+    private SessionFactory sessionFactory;
+
+    @Autowired
+    public ArticleDAOImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
     @Override
     public String sendArticleToModeration(Article article) {

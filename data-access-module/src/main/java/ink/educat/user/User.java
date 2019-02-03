@@ -15,6 +15,7 @@ import java.time.LocalDate;
 public class User implements Serializable {
 
     @Id
+    @Column(name = "id", nullable = false)
     private Integer id;
 
     @Column(name = "FIRST_NAME")

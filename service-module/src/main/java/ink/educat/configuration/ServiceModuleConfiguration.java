@@ -2,6 +2,7 @@ package ink.educat.configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 /**
  * Конфигурация сервис слоя портала.
@@ -9,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * подробнее про конфигурацию DAO {@link ink.educat.configuration.DataAccessModuleConfiguration}
  */
 @Configuration
-@ComponentScan
+@ComponentScan("ink.educat.services")
+@Import(DataAccessModuleConfiguration.class)
 public class ServiceModuleConfiguration {
-
 }
