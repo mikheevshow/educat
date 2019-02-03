@@ -13,7 +13,7 @@
       <ObjectId>16525</ObjectId>
       <StateNumber>1669</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>505</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1696</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
@@ -106,7 +106,7 @@
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
       <IntrospectionTimestamp>2019-01-13.00:36:39.858</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1692</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1697</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -345,10 +345,10 @@ account_id</ColNames>
       <StateNumber>1671</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="56" parent="27" name="last_date_on_system">
+    <column id="56" parent="27" name="last_login_date">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>1671</StateNumber>
+      <StateNumber>1695</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="57" parent="27" name="account_role_id">

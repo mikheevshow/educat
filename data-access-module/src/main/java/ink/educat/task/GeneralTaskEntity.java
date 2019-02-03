@@ -1,9 +1,8 @@
-package ink.educat.Issues;
+package ink.educat.task;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.io.Serializable;
-import java.time.OffsetDateTime;
 
 
 @Entity

@@ -2,24 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/roles/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/UserBadOperationResultException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e73cacd-2f37-45a6-bc12-de750b646f64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3e73cacd-2f37-45a6-bc12-de750b646f64.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e73cacd-2f37-45a6-bc12-de750b646f64/storage_v2/_src_/database/educat_test_db.bKbtVg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3e73cacd-2f37-45a6-bc12-de750b646f64/storage_v2/_src_/database/educat_test_db.bKbtVg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleAccessOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleAccessOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/UserPostEditPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/GeneralTaskEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,6 +107,42 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="account_settings: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="accounts: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="articles: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -104,52 +151,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="541">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+                <element signature="e#1490#1491#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1762#1763#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1860#1861#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#1991#1992#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,8 +209,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="90">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -172,10 +223,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="415">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://3e73cacd-2f37-45a6-bc12-de750b646f64/database/educat_test_db/schema/public/table/articles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,35 +271,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1906#1907#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
+                <element signature="e#1988#1989#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2090#2091#0" expanded="true" />
+                <element signature="e#2129#2130#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2214#2215#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+                <element signature="e#2289#2290#0" expanded="true" />
+                <element signature="e#2318#2319#0" expanded="true" />
+                <element signature="e#2362#2363#0" expanded="true" />
+                <element signature="e#2398#2399#0" expanded="true" />
+                <element signature="e#2431#2432#0" expanded="true" />
+                <element signature="e#2460#2461#0" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#2576#2577#0" expanded="true" />
+                <element signature="e#2608#2609#0" expanded="true" />
+                <element signature="e#2658#2659#0" expanded="true" />
+                <element signature="e#2700#2701#0" expanded="true" />
+                <element signature="e#2735#2736#0" expanded="true" />
+                <element signature="e#2765#2766#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#2850#2851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -236,31 +365,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/UserStatus.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java" />
-        <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/user/Hello.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserOperations.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/User.java" />
-        <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserService.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" />
-        <option value="$PROJECT_DIR$/account-module/src/main/java/ink/educat/services/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/account-module/pom.xml" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/UserPostEditPermissions.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Postable.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAO.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/PostDAOImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-module/pom.xml" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/AbstractIssue.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssuesDAO.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/IssueDAOImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" />
         <option value="$PROJECT_DIR$/hibernate.properties" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/PostServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/PostService.java" />
@@ -275,18 +383,39 @@
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleService.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/preferences/AccountPreferences.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchivementService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/roles/Role.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/UserBadOperationResultException.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java" />
+        <option value="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" />
       </list>
     </option>
   </component>
@@ -304,8 +433,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="85" />
+    <option name="x" value="43" />
+    <option name="y" value="143" />
     <option name="width" value="1619" />
     <option name="height" value="932" />
   </component>
@@ -381,17 +510,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ink" type="462c0819:PsiDirectoryNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -403,18 +521,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ink" type="462c0819:PsiDirectoryNode" />
-              <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="Issues" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -430,6 +538,30 @@
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAccessModuleTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
               <item name="service-module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -471,6 +603,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -485,42 +639,68 @@
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="UGEService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.4.1.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.4.1.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="Session" type="1a9f42e2:ClassTreeNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="3e73cacd-2f37-45a6-bc12-de750b646f64" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -532,17 +712,26 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549134928059" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549209555318" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.20512821" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -564,6 +753,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DataAccessModuleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataAccessModuleTest" />
+      <module name="data-access-module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DataAccessModuleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -607,12 +810,12 @@
       <workItem from="1548878827526" duration="6913000" />
       <workItem from="1548925712944" duration="233000" />
       <workItem from="1548961201895" duration="1197000" />
-      <workItem from="1549132217820" duration="2706000" />
+      <workItem from="1549132217820" duration="11167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57623000" />
+    <option name="totallyTimeSpent" value="66084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,9 +827,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="85" width="1619" height="932" extended-state="0" />
+    <frame x="43" y="143" width="1619" height="932" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32086238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18706405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -634,14 +837,15 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Azure Explorer" order="7" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30232558" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30232558" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -652,7 +856,7 @@
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.17156863" />
+      <window_info anchor="bottom" id="Database Console" order="18" visible="true" weight="0.17135863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -702,126 +906,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/issues-bank-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/educat.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educat-core-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/account-module/src/main/java/ink/educat/user/Hello.java" />
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserOperations.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/registration-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/authorization-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/data-access-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-module/post-editor-module/src/main/java/PostEditor.java" />
-    <entry file="file://$PROJECT_DIR$/post-module/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/service-module.iml" />
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_migration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/UserPostEditPermissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/MultiAnswerIssue.java" />
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/RegularIssue.java" />
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleAccessOptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,197 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/preferences/AccountPreferences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>3e73cacd-2f37-45a6-bc12-de750b646f64</OriginalElement>
-          <nodes>
-            <node x="55.0" y="635.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
-            <node x="315.1181818181818" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
-            <node x="297.0" y="843.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
-            <node x="787.6181818181818" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
-            <node x="1019.6181818181818" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
-            <node x="0.0" y="832.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
-            <node x="536.0" y="832.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
-            <node x="327.1181818181818" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
-            <node x="242.61818181818182" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
-            <node x="633.6181818181818" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
-            <node x="1057.1181818181817" y="389.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type</node>
-            <node x="85.5" y="979.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
-            <node x="233.5" y="1214.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
-            <node x="552.6181818181818" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
-            <node x="0.0" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
-            <node x="595.6181818181818" y="657.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements">
-              <point x="-51.0" y="-59.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-              <point x="-53.0" y="-81.5" />
-              <point x="1072.6181818181817" y="572.0" />
-              <point x="784.8181818181819" y="572.0" />
-              <point x="103.20000000000005" y="114.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type">
-              <point x="53.0" y="-81.5" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks">
-              <point x="-41.75" y="-59.0" />
-              <point x="275.25" y="1189.0" />
-              <point x="191.5" y="1189.0" />
-              <point x="0.0" y="92.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-              <point x="51.0" y="-59.5" />
-              <point x="208.0" y="572.0" />
-              <point x="578.4181818181818" y="572.0" />
-              <point x="-103.20000000000005" y="114.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users">
-              <point x="64.5" y="-114.5" />
-              <point x="0.0" y="136.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories">
-              <point x="-53.0" y="-92.5" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
-              <point x="-64.5" y="-114.5" />
-              <point x="617.1181818181818" y="298.0" />
-              <point x="508.6181818181818" y="298.0" />
-              <point x="60.5" y="48.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
-              <point x="53.0" y="-92.5" />
-              <point x="244.5" y="954.0" />
-              <point x="345.5" y="954.0" />
-              <point x="-48.5" y="37.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-              <point x="0.0" y="-37.0" />
-              <point x="0.0" y="114.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-              <point x="0.0" y="-70.5" />
-              <point x="432.6181818181818" y="582.0" />
-              <point x="630.0181818181818" y="582.0" />
-              <point x="-51.60000000000002" y="114.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
-              <point x="41.75" y="-59.0" />
-              <point x="358.75" y="1189.0" />
-              <point x="442.5" y="1189.0" />
-              <point x="48.500000000000014" y="37.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
-              <point x="0.0" y="-59.5" />
-              <point x="-60.5" y="48.5" />
-            </edge>
-            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
-              <point x="0.0" y="-92.5" />
-              <point x="893.6181818181818" y="582.0" />
-              <point x="733.2181818181818" y="582.0" />
-              <point x="51.60000000000002" y="114.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.58498003868557" x="85.27040946434983" y="635.2704094643498" />
-          <SelectedNodes>
-            <node>3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1050,41 +951,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,14 +972,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
@@ -1119,7 +982,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/UserPostEditPermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3e73cacd-2f37-45a6-bc12-de750b646f64">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3e73cacd-2f37-45a6-bc12-de750b646f64</OriginalElement>
+          <nodes>
+            <node x="1034.4363636363637" y="635.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements</node>
+            <node x="335.1863636363636" y="624.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history</node>
+            <node x="297.0" y="843.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects</node>
+            <node x="610.4363636363636" y="602.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles</node>
+            <node x="68.49999999999989" y="613.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents</node>
+            <node x="0.0" y="832.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories</node>
+            <node x="536.0" y="832.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.configures</node>
+            <node x="361.9363636363636" y="88.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles</node>
+            <node x="277.4363636363636" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions</node>
+            <node x="668.4363636363636" y="0.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users</node>
+            <node x="0.0" y="389.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type</node>
+            <node x="85.5" y="979.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks</node>
+            <node x="233.5" y="1214.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs</node>
+            <node x="587.4363636363636" y="323.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts</node>
+            <node x="1081.4363636363637" y="378.0">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements</node>
+            <node x="842.4363636363636" y="657.5">3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.achievements">
+              <point x="51.0" y="-59.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="53.0" y="-81.5" />
+              <point x="227.4999999999999" y="572.0" />
+              <point x="613.2363636363635" y="572.0" />
+              <point x="-103.20000000000005" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.documents" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.document_type">
+              <point x="-53.0" y="-81.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks">
+              <point x="-41.75" y="-59.0" />
+              <point x="275.25" y="1189.0" />
+              <point x="191.5" y="1189.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.obtained_achievements" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="-51.0" y="-59.5" />
+              <point x="1085.4363636363637" y="572.0" />
+              <point x="819.6363636363635" y="572.0" />
+              <point x="103.19999999999993" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.users">
+              <point x="64.5" y="-114.5" />
+              <point x="0.0" y="136.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.task_categories">
+              <point x="-53.0" y="-92.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
+              <point x="-64.5" y="-114.5" />
+              <point x="651.9363636363636" y="298.0" />
+              <point x="543.4363636363636" y="298.0" />
+              <point x="60.5" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.tasks" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
+              <point x="53.0" y="-92.5" />
+              <point x="244.5" y="954.0" />
+              <point x="345.5" y="954.0" />
+              <point x="-48.5" y="37.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="0.0" y="-37.0" />
+              <point x="928.4363636363636" y="582.0" />
+              <point x="768.0363636363636" y="582.0" />
+              <point x="51.60000000000002" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts_history" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="0.0" y="-70.5" />
+              <point x="452.6863636363636" y="582.0" />
+              <point x="664.8363636363636" y="582.0" />
+              <point x="-51.60000000000002" y="114.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.training_jobs" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.subjects">
+              <point x="41.75" y="-59.0" />
+              <point x="358.75" y="1189.0" />
+              <point x="442.5" y="1189.0" />
+              <point x="48.500000000000014" y="37.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.permissions" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.roles">
+              <point x="0.0" y="-59.5" />
+              <point x="-60.5" y="48.5" />
+            </edge>
+            <edge source="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.articles" target="3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.accounts">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="114.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2052860312210671" x="706.1228586270577" y="179.1228586270577" />
+          <SelectedNodes>
+            <node>3e73cacd-2f37-45a6-bc12-de750b646f64.TABLE:educat_test_db.public.account_settings</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/hibernate-configuration-3.0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/hibernate-mapping-4.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4009" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/hibernate-configuration-4.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Hibernate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final-sources.jar!/org/hibernate/Hibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="201" column="44" lean-forward="true" selection-start-line="201" selection-start-column="44" selection-end-line="201" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educat.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="145" column="58" selection-start-line="145" selection-start-column="58" selection-end-line="145" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/roles/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/GeneralTaskEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -1129,10 +1284,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/UserBadOperationResultException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2129#2130#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+            <element signature="e#2608#2609#0" expanded="true" />
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2735#2736#0" expanded="true" />
+            <element signature="e#2765#2766#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2850#2851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3e73cacd-2f37-45a6-bc12-de750b646f64/database/educat_test_db/schema/public/table/articles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
         </state>
       </provider>
     </entry>

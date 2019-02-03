@@ -1,4 +1,4 @@
-package ink.educat.Issues;
+package ink.educat.task;
 
 import org.springframework.stereotype.Repository;
 

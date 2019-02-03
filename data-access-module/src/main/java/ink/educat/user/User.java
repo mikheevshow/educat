@@ -1,20 +1,15 @@
 package ink.educat.user;
 
+import ink.educat.account.Account;
 import ink.educat.user.UserStatus;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.time.OffsetDateTime;
-import java.util.Optional;
 
 /**
  * Карточка пользователя портала
  */
-
 @Entity
 @Table(name = "USERS", schema = "PUBLIC")
 public class User implements Serializable {
@@ -40,14 +35,114 @@ public class User implements Serializable {
     @Column(name = "PHONE")
     private Long phone;
 
-    @Column(name = "USER_STATUS")
-    private UserStatus userStatus;
-
     @Column(name = "BIRTH_DATE")
     private LocalDate birthDate;
 
-    private Boolean sendNotifications;
+    @Column(name = "VK_LINK")
+    private String vkLink;
 
+    @Column(name = "FB_LINK")
+    private String fbLink;
+
+    @Column(name = "INSTA_LINK")
     private String instaLink;
 
+    @OneToOne
+    private Account account;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public boolean isEmailConfirmed() {
+        return emailConfirmed;
+    }
+
+    public void setEmailConfirmed(boolean emailConfirmed) {
+        this.emailConfirmed = emailConfirmed;
+    }
+
+    public Long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Long phone) {
+        this.phone = phone;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getVkLink() {
+        return vkLink;
+    }
+
+    public void setVkLink(String vkLink) {
+        this.vkLink = vkLink;
+    }
+
+    public String getFbLink() {
+        return fbLink;
+    }
+
+    public void setFbLink(String fbLink) {
+        this.fbLink = fbLink;
+    }
+
+    public String getInstaLink() {
+        return instaLink;
+    }
+
+    public void setInstaLink(String instaLink) {
+        this.instaLink = instaLink;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+    }
 }

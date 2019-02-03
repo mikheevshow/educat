@@ -1,10 +1,9 @@
 package ink.educat.services.UGEService;
 
-import ink.educat.Issues.TaskDAO;
+import ink.educat.task.TaskDAO;
 import ink.educat.services.UserService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 
 /**
  * Сервис для предоставления ЕГЭ/ОГЭ пользовательских услуг

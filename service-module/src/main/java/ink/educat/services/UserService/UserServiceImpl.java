@@ -1,5 +1,11 @@
 package ink.educat.services.UserService;
 
+import com.sun.xml.bind.v2.TODO;
+import ink.educat.account.AccountStatus;
+import ink.educat.user.User;
+import ink.educat.user.UserDAO;
+import ink.educat.user.UserStatus;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -8,13 +14,22 @@ import java.util.Collection;
 /**
  * Сервис для работы с пользователями
  */
-
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Override
-    public void blockUser(User user) {
+    private UserDAO userDAO;
 
+    @Autowired
+    public UserServiceImpl(UserDAO userDAO) {
+        this.userDAO = userDAO;
+    }
+
+    @Override
+    @Transactional
+    public void blockUser(User user) {
+        //TODO проверить работоспособность персистентности для агрегированных объектов
+        user.getAccount().setAccountStatus(AccountStatus.BLOCKED);
+        userDAO.saveOrUpdate(user);
     }
 
     @Override
@@ -24,7 +39,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean userIsBlocked(User user) {
-        return false;
+        return user.getAccount().getStatus() == AccountStatus.BLOCKED;
     }
 
     @Override
