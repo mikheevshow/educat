@@ -1,7 +1,7 @@
 package ink.educat.services.ArticleService;
 
 import ink.educat.article.Article;
-import ink.educat.article.UserPostEditPermissions;
+import ink.educat.article.AccountArticleEditRole;
 
 /**
  * Сервис для работы с публикациями
@@ -39,14 +39,14 @@ public interface ArticleService {
      * @param article - пост
      * @param permissions - права пользователя, который потается удалить пост
      */
-    public void deleteArticle(Article article, UserPostEditPermissions permissions);
+    public void deleteArticle(Article article, AccountArticleEditRole permissions);
 
     /**
      * Удаляет пост и присваивает ссылающемуся на него id в базе данных в соответствующей таблице статус "DELETED"
      * @param id - уникальный номер поста
      * @param permissions - права пользователя, который пытается удалить пост
      */
-    public void deleteArticle(long id, UserPostEditPermissions permissions);
+    public void deleteArticle(long id, AccountArticleEditRole permissions);
 
     /**
      * Добавляет новый пост в личное пространство Редактора(в данном случае в личное пространство человека,

@@ -15,5 +15,6 @@ public class ConfigurationServiceImpl implements ConfigurationService {
     private static final Logger logger = LoggerFactory.getLogger(ConfigurationServiceImpl.class);
 
     public ConfigurationServiceImpl() {
+
     }
 }

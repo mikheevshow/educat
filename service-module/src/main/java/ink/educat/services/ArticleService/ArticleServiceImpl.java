@@ -2,7 +2,7 @@ package ink.educat.services.ArticleService;
 
 import ink.educat.article.Article;
 import ink.educat.article.ArticleDAO;
-import ink.educat.article.UserPostEditPermissions;
+import ink.educat.article.AccountArticleEditRole;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,12 +46,12 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public void deleteArticle(Article article, UserPostEditPermissions permissions) {
+    public void deleteArticle(Article article, AccountArticleEditRole permissions) {
 
     }
 
     @Override
-    public void deleteArticle(long id, UserPostEditPermissions permissions) {
+    public void deleteArticle(long id, AccountArticleEditRole permissions) {
 
     }
 

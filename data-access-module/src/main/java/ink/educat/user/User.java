@@ -16,7 +16,7 @@ public class User implements Serializable {
 
     @Id
     @Column(name = "id", nullable = false)
-    private Integer id;
+    private long id;
 
     @Column(name = "FIRST_NAME")
     private String firstName;
@@ -51,7 +51,10 @@ public class User implements Serializable {
     @OneToOne
     private Account account;
 
-    public Integer getId() {
+    public User() {
+    }
+
+    public long getId() {
         return id;
     }
 

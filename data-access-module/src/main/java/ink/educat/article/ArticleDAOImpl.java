@@ -4,9 +4,11 @@ import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 
+@Repository
 public class ArticleDAOImpl implements ArticleDAO {
 
     private static final Logger logger = LoggerFactory.getLogger(ArticleDAOImpl.class);
@@ -33,12 +35,12 @@ public class ArticleDAOImpl implements ArticleDAO {
     }
 
     @Override
-    public void deletePost(Article article, UserPostEditPermissions permissions) {
+    public void deletePost(Article article, AccountArticleEditRole permissions) {
 
     }
 
     @Override
-    public void deletePost(long id, UserPostEditPermissions permissions) {
+    public void deletePost(long id, AccountArticleEditRole permissions) {
 
     }
 

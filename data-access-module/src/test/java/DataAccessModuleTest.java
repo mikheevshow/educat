@@ -1,6 +1,5 @@
 import ink.educat.configuration.DataAccessModuleConfiguration;
 import ink.educat.user.UserDAO;
-import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

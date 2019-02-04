@@ -33,14 +33,14 @@ public interface ArticleDAO extends AbstractDAO<Article> {
      * @param article - пост
      * @param permissions - права пользователя, который потается удалить пост
      */
-     public void deletePost(Article article, UserPostEditPermissions permissions);
+     public void deletePost(Article article, AccountArticleEditRole permissions);
 
     /**
      * Удаляет пост и присваивает ссылающемуся на него id в базе данных в соответствующей таблице статус "DELETED"
      * @param id - уникальный номер поста
      * @param permissions - права пользователя, который пытается удалить пост
      */
-     public void deletePost(long id, UserPostEditPermissions permissions);
+     public void deletePost(long id, AccountArticleEditRole permissions);
 
      /**
      * Добавляет новый пост в личное пространство Редактора(в данном случае в личное пространство человека,

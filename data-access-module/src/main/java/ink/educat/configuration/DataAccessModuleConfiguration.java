@@ -5,15 +5,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 import java.util.Properties;
-//TODO: 1) Посмотреть как конфигурируется контекст прилжение через java класс
-//TODO: 2) Посмотреть как конфигурируется hibernate при помощи аннотаций
-//TODO: 3) Посмотреть как можно связать java сущность и другую таблицу без создания
-//         сущности ко второй таблице (просто вытащить данные из второй таблицы и вставить
-//         в поле сущености относящейся к первой таблице)
 
 /**
  * Конфигурация слоя доступа к данным.
@@ -22,25 +20,41 @@ import java.util.Properties;
 @Configuration
 @ComponentScan({"ink.educat"})
 @PropertySource({"classpath:hibernate.properties"})
+@EnableTransactionManagement
 public class DataAccessModuleConfiguration {
 
+    /* Поднимаем фабрику сеансов и источник данных */
     @Bean
     public LocalSessionFactoryBean sessionFactoryBean() {
         LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource());
         sessionFactoryBean.setHibernateProperties(hibernateProperties());
+
         return sessionFactoryBean;
     }
 
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("org.postgresql.Driver");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/educat_test_db");
+        dataSource.setUsername("postgres");
+        dataSource.setPassword("postgres");
+
         return dataSource;
     }
 
     @Bean
-    public Properties hibernateProperties(){
+    public PlatformTransactionManager hibernateTransactionManager() {
+        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
+        transactionManager.setSessionFactory(sessionFactoryBean().getObject());
+
+        return transactionManager;
+    }
+
+    private Properties hibernateProperties(){
         Properties properties = new Properties();
+        properties.put("hibernate.dialect", "org.hibernate.dialect.PostgresPlusDialect");
 
         return properties;
     }

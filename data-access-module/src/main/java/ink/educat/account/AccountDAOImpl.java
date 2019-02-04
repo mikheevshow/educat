@@ -21,11 +21,13 @@ public class AccountDAOImpl implements AccountDAO {
 
     @Override
     public Account findById(long id) {
+
         return null;
     }
 
     @Override
     public Collection<Account> findByIDs(long[] ids) {
+
         return null;
     }
 
