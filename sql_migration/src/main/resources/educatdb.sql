@@ -12,12 +12,12 @@ CREATE TABLE USERS
   SECOND_NAME     VARCHAR(100) NOT NULL,
   MIDDLE_NAME     VARCHAR(100),
   BIRTH_DATE      TIMESTAMP,
-  EMAIL           VARCHAR(100) NOT NULL UNIQUE,
-  EMAIL_CONFIRMED BOOLEAN      NOT NULL,
+  EMAIL           VARCHAR(100) UNIQUE,
   PHONE           VARCHAR(100),
   VK_LINK         VARCHAR(100),
   FB_LINK         VARCHAR(100),
-  INSTA_LINK      VARCHAR(100)
+  INSTA_LINK      VARCHAR(100),
+  AVATAR_LINK     VARCHAR
 );
 COMMENT ON TABLE USERS IS 'Таблица храняющая персональную информацию пользователей';
 COMMENT ON COLUMN USERS.FIRST_NAME IS 'Имя пользователя';
@@ -25,11 +25,11 @@ COMMENT ON COLUMN USERS.SECOND_NAME IS 'Фамилия пользователя'
 COMMENT ON COLUMN USERS.MIDDLE_NAME IS 'Отчество пользователя';
 COMMENT ON COLUMN USERS.BIRTH_DATE IS 'Дата рождения пользователя';
 COMMENT ON COLUMN USERS.EMAIL IS 'Электронный адрес пользователя';
-COMMENT ON COLUMN USERS.EMAIL_CONFIRMED IS 'Подтвержденность электронного адреса';
 COMMENT ON COLUMN USERS.PHONE IS 'Мобильный телефон пользователя';
 COMMENT ON COLUMN USERS.VK_LINK IS 'Ссылка на профиль соц.сети ВКонтакте';
 COMMENT ON COLUMN USERS.FB_LINK IS 'Ссылка на профиль соц.сети Facebook';
 COMMENT ON COLUMN USERS.INSTA_LINK IS 'Ссылка на профиль соц.сети Instagram';
+COMMENT ON COLUMN USERS.AVATAR_LINK IS 'Ссылка на фотографию профиля';
 
 
 -- Личный кабинет пользователя
@@ -39,8 +39,11 @@ CREATE TABLE ACCOUNTS
   ID               INT PRIMARY KEY,
   USERNAME         VARCHAR(100) NOT NULL UNIQUE,
   ACCOUNT_PASSWORD VARCHAR(100) NOT NULL,
+  EMAIL            VARCHAR(100) UNIQUE,
+  EMAIL_CONFIRMED  BOOLEAN DEFAULT FALSE,
   USER_ID          INT          NOT NULL UNIQUE REFERENCES USERS,
   STATUS           VARCHAR      NOT NULL,
+  ROLE_ID          INT NOT NULL REFERENCES ROLES,
   RATING           VARCHAR,
   CREATION_DATE    TIMESTAMP    NOT NULL,
   LAST_LOGIN_DATE  TIMESTAMP
@@ -53,6 +56,8 @@ COMMENT ON COLUMN ACCOUNTS.STATUS IS 'Статус пользователя в �
 COMMENT ON COLUMN ACCOUNTS.RATING IS 'Рейтинг пользователя в системе';
 COMMENT ON COLUMN ACCOUNTS.CREATION_DATE IS 'Дата регистрации пользователя';
 COMMENT ON COLUMN ACCOUNTS.LAST_LOGIN_DATE IS 'Последняя дата входа';
+COMMENT ON COLUMN ACCOUNTS.ROLE_ID IS 'ID роли в таблице ROLES';
+COMMENT ON COLUMN ACCOUNTS.EMAIL_CONFIRMED IS 'Подтвержденность электронного адреса';
 
 
 -- Настройки, связанные с кастомизацией личного кабинета
@@ -77,7 +82,8 @@ COMMENT ON TABLE ROLES IS 'Таблица, содержащая информац
 COMMENT ON COLUMN ROLES.ROLE_NAME IS 'Название роли';
 COMMENT ON COLUMN ROLES.ROLE_DESCRIPTION IS 'Описание роли';
 
-ALTER TABLE ACCOUNTS ADD ACCOUNT_ROLE_ID INT REFERENCES ROLES;
+ALTER TABLE ACCOUNTS
+  ADD ACCOUNT_ROLE_ID INT REFERENCES ROLES;
 COMMENT ON COLUMN ACCOUNTS.ACCOUNT_ROLE_ID IS 'ID роли в таблице ROLES';
 
 -- Права доступа
@@ -99,7 +105,7 @@ CREATE TABLE ROLE_PERMISSIONS
 (
   ROLE_ID INT REFERENCES ROLES,
   PERM_ID INT REFERENCES PERMISSIONS,
-  PRIMARY KEY (ROLE_ID,  PERM_ID)
+  PRIMARY KEY (ROLE_ID, PERM_ID)
 );
 COMMENT ON TABLE ROLE_PERMISSIONS IS 'Таблица, содеражащая информацию о доступных правах ролям';
 COMMENT ON COLUMN ROLE_PERMISSIONS.ROLE_ID IS 'ID роли в таблице ROLES';
@@ -127,13 +133,13 @@ COMMENT ON COLUMN ACCOUNTS_HISTORY.ASSIGNMENT_DATE IS 'Дата изменени
 DROP TABLE ARTICLES;
 CREATE TABLE ARTICLES
 (
-  ID            INT PRIMARY KEY,
-  CREATION_DATE TIMESTAMP,
-  HEADER        VARCHAR(300),
-  CONTENT       VARCHAR,
-  CREATOR_ID    INT NOT NULL REFERENCES ACCOUNTS,
+  ID                INT PRIMARY KEY,
+  CREATION_DATE     TIMESTAMP,
+  HEADER            VARCHAR(300),
+  CONTENT           VARCHAR,
+  CREATOR_ID        INT NOT NULL REFERENCES ACCOUNTS,
   LAST_MODERATOR_ID INT REFERENCES ACCOUNTS,
-  TAGS          VARCHAR
+  TAGS              VARCHAR
 );
 COMMENT ON COLUMN ARTICLES.CREATION_DATE IS 'ID аккаунта в таблице ACCOUNTS';
 COMMENT ON COLUMN ARTICLES.HEADER IS 'Шапка статьи';
@@ -144,15 +150,16 @@ COMMENT ON COLUMN ARTICLES.LAST_MODERATOR_ID IS 'Пользователь пос
 DROP TABLE ARTICLE_STATUSES;
 CREATE TABLE ARTICLE_STATUSES
 (
-  ID INT PRIMARY KEY,
-  NAME VARCHAR(20),
+  ID          INT PRIMARY KEY,
+  NAME        VARCHAR(20),
   DESCRIPTION VARCHAR(300)
 );
 COMMENT ON TABLE ARTICLE_STATUSES IS 'Таблица статусов статей';
 COMMENT ON COLUMN ARTICLE_STATUSES.NAME IS 'Название статуса';
 COMMENT ON COLUMN ARTICLE_STATUSES.DESCRIPTION IS 'Описание статуса статьи';
 
-ALTER TABLE ARTICLES ADD STATUS_ID INT REFERENCES ARTICLE_STATUSES;
+ALTER TABLE ARTICLES
+  ADD STATUS_ID INT REFERENCES ARTICLE_STATUSES;
 COMMENT ON COLUMN ARTICLES.STATUS_ID IS 'ID статуса статьи в таблице ARTICLE_STATUSES';
 
 -- Таблицы, связанные с хранением документов и документооборотом

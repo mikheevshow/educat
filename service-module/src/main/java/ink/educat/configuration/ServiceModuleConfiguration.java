@@ -1,5 +1,8 @@
 package ink.educat.configuration;
 
+import ink.educat.documents.DocumentService;
+import ink.educat.documents.DocumentServiceImpl;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -16,4 +19,10 @@ import org.springframework.context.annotation.Import;
 @ComponentScan("ink.educat.services")
 @Import(DataAccessModuleConfiguration.class)
 public class ServiceModuleConfiguration {
+
+    @Bean
+    public DocumentService documentService() {
+        return new DocumentServiceImpl();
+    }
+
 }

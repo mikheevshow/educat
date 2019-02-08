@@ -1,5 +1,5 @@
 import ink.educat.configuration.DataAccessModuleConfiguration;
-import ink.educat.user.UserDAO;
+import ink.educat.dao.user.UserDAO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -10,4 +10,7 @@ public class DataAccessModuleTest {
         UserDAO userDAO = (UserDAO) context.getBean("userDAOImpl");
         userDAO.findById(123L);
     }
+
+
+
 }

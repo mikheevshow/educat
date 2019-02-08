@@ -2,23 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa542655-a66a-4142-b352-76044a0aa7ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/java/TODO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access-module/src/main/resources/hibernate.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/UserPostEditPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/AccountArticleEditRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,132 +67,16 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="account_settings: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="accounts: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="articles: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="educat_test_db: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="educat_test_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/TODO">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="72">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,31 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="378">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,10 +97,96 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/resources/hibernate.properties">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/article/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="310">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/BadArticleOperationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/achivement/AchievementServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/article/ArticleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/account/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/account/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -253,62 +206,63 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Post.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Author.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralIssueEntity.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/GeneralTaskEntity.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAO.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/Article.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleAccessOptions.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAO.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleService.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleStatus.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/post/ArticleDAOImpl.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/PostService/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/preferences/AccountPreferences.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/Issues/TaskDAOImpl.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchivementService.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementService.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingService.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/roles/Role.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/UserBadOperationResultException.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountStatus.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" />
         <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" />
-        <option value="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/AccountArticleEditRole.java" />
         <option value="$PROJECT_DIR$/hibernate.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql" />
-        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/TODO" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java" />
         <option value="$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountRole.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/NoEnoughPermissions.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/NoEnoughPermissionsException.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java" />
+        <option value="$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql" />
         <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql" />
+        <option value="$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/BadArticleOperationException.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/account/AccountService.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/account/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/article/ArticleServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -326,10 +280,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="590" />
-    <option name="width" value="1619" />
-    <option name="height" value="934" />
+    <option name="x" value="27" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -340,6 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -401,7 +356,66 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="Account" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="AccountDAOImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="ArticleDAO" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -413,6 +427,30 @@
               <item name="ink" type="462c0819:PsiDirectoryNode" />
               <item name="educat" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDAO" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="data-access-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDAOImpl" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
@@ -504,42 +542,294 @@
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="achivement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="ArticleService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigurationService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigurationServiceImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="RatingServiceImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="service-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ink" type="462c0819:PsiDirectoryNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educat" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_migration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.25.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.25.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.25.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.25.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.25.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="EventRecodingLogger" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.25.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
+              <item name="Logger" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="educat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="educat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="3e73cacd-2f37-45a6-bc12-de750b646f64" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549285137300" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549647098127" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.20512821" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -630,12 +920,17 @@
       <workItem from="1548961201895" duration="1197000" />
       <workItem from="1549132217820" duration="15502000" />
       <workItem from="1549220472218" duration="5596000" />
-      <workItem from="1549266213519" duration="6283000" />
+      <workItem from="1549266213519" duration="10127000" />
+      <workItem from="1549306825265" duration="3170000" />
+      <workItem from="1549312350653" duration="11000" />
+      <workItem from="1549468885922" duration="4611000" />
+      <workItem from="1549483400397" duration="2434000" />
+      <workItem from="1549569784678" duration="2756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82298000" />
+    <option name="totallyTimeSpent" value="99124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,10 +942,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="590" width="1619" height="934" extended-state="0" />
-    <editor active="true" />
+    <frame x="27" y="23" width="1680" height="932" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.26062143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.26617828" />
       <window_info id="Structure" order="1" sideWeight="0.5018248" side_tool="true" weight="0.25745085" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -660,13 +954,13 @@
       <window_info id="Azure Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.03663004" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5653236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41615668" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50031704" side_tool="true" weight="0.32925338" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497558" weight="0.07628004" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" visible="true" weight="0.16768666" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="11" />
@@ -676,7 +970,7 @@
       <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.49968293" weight="0.32925338" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="17" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.51404154" />
+      <window_info anchor="bottom" id="Database Console" order="18" sideWeight="0.498779" weight="0.4124847" />
       <window_info anchor="bottom" id="Messages" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -684,7 +978,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.24223208" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.027472528" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
@@ -727,228 +1021,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/hibernate-mapping-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4009" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/hibernate-configuration-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/Hibernate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final-sources.jar!/org/hibernate/Hibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="201" column="44" lean-forward="true" selection-start-line="201" selection-start-column="44" selection-end-line="201" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educat.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/roles/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/GeneralTaskEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3e73cacd-2f37-45a6-bc12-de750b646f64/database/educat_test_db/schema/public/table/articles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/UserBadOperationResultException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleAccessOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_migration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/AchivementService/AchievementServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ArticleService/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="232" column="1" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UGEService/UGEService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/RatingService/RatingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/ConfigurationService/ConfigurationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/UserService/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -956,37 +1028,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java">
+    <entry file="file://$PROJECT_DIR$/service-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/core/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/uge/UGEServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="1908">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_migration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/GenerationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/AccountArticleEditRole.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="18">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/rating/RatingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/configuration/ConfigurationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/documents/DocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/configuration/ConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/rating/RatingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,22 +1217,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/task/TaskDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserStatus.java" />
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="54">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/event/EventRecodingLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3148">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+        <state relative-caret-position="213">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/AccountArticleEditRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleAccessOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/achivement/AchievementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/UserBadOperationResultException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/NoEnoughPermissionsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1021,97 +1307,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state relative-caret-position="162">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1906#1907#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e73cacd-2f37-45a6-bc12-de750b646f64/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="145" column="75" selection-start-line="145" selection-start-column="75" selection-end-line="145" selection-end-column="75" />
+        <state relative-caret-position="72">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/configuration/ServiceModuleConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="360">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sql_migration/src/main/resources/educatdb.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        <state relative-caret-position="2034">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/resources/hibernate.properties">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/account/AccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/configuration/DataAccessModuleConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/test/java/DataAccessModuleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1120,19 +1375,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/UserDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/article/ArticleStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access-module/src/main/java/ink/educat/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/exceptions/BadArticleOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/achivement/AchievementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/account/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/account/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/article/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-module/src/main/java/ink/educat/services/article/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
           </folding>
         </state>
       </provider>
