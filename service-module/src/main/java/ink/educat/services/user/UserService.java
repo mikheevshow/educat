@@ -33,13 +33,6 @@ public interface UserService {
     boolean userIsBlocked(User user);
 
     /**
-     * Позволяет менять права доступа пользователя
-     * @param user - пользователь
-     * @param status - статус пользователя
-     */
-    void changeUserPermissions(User user, UserStatus status);
-
-    /**
      * Позволяет менять рейтинг пользователя
      * @param user - пользователь
      * @param rating - абсолютное значение рейтинга

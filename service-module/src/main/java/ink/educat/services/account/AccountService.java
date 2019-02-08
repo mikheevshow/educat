@@ -1,6 +1,7 @@
 package ink.educat.services.account;
 
 import ink.educat.dao.account.Account;
+import ink.educat.dao.account.AccountRole;
 import ink.educat.dao.account.AccountStatus;
 import org.springframework.lang.NonNull;
 
@@ -23,6 +24,13 @@ public interface AccountService {
      * @param accounts - структра данных, хранящая аккаунты
      */
     void blockAccounts(@NonNull Iterable<Account> accounts);
+
+    /**
+     * Позволяет менять права пользователя
+     * @param account
+     * @param role
+     */
+    void changeAccountRole(@NonNull Account account, @NonNull AccountRole role);
 
 
 

@@ -1,7 +1,6 @@
 package ink.educat.dao.user;
 
 import ink.educat.dao.account.Account;
-import ink.educat.dao.user.UserStatus;
 
 import javax.persistence.*;
 import java.io.Serializable;
