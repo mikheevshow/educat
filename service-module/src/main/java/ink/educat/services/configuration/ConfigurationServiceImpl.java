@@ -15,7 +15,10 @@ public class ConfigurationServiceImpl implements ConfigurationService {
 
     private static final Logger logger = LoggerFactory.getLogger(ConfigurationServiceImpl.class);
 
-    public ConfigurationServiceImpl() {};
+    public ConfigurationServiceImpl() {
+    }
+
+    ;
 
     @Override
     public Object readConfigurationByNameForUser(String configName, User user, Class clazz) {

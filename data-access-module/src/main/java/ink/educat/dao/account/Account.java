@@ -43,25 +43,37 @@ public class Account {
     public Account() {
     }
 
-    public long getId() { return id; }
+    public long getId() {
+        return id;
+    }
 
-    public void setId(long id) { this.id = id; }
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) { this.username = username; }
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-    public String getPassword() { return password; }
+    public String getPassword() {
+        return password;
+    }
 
-    public void setPassword(String password) { this.password = password; }
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public User getUser() {
         return user;
     }
 
-    public void setUser(User user) { this.user = user; }
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public AccountStatus getStatus() {
         return status;
@@ -71,17 +83,27 @@ public class Account {
         this.status = status;
     }
 
-    public LocalDateTime getCreationTime() { return creationTime; }
+    public LocalDateTime getCreationTime() {
+        return creationTime;
+    }
 
     public void setCreationTime(LocalDateTime creationTime) {
         this.creationTime = creationTime;
     }
 
-    public LocalDateTime getLastLoginDate() { return lastLoginDate;  }
+    public LocalDateTime getLastLoginDate() {
+        return lastLoginDate;
+    }
 
-    public void setLastLoginDate(LocalDateTime lastLoginDate) { this.lastLoginDate = lastLoginDate; }
+    public void setLastLoginDate(LocalDateTime lastLoginDate) {
+        this.lastLoginDate = lastLoginDate;
+    }
 
-    public Boolean getEmailConfirmed() { return emailConfirmed; }
+    public Boolean getEmailConfirmed() {
+        return emailConfirmed;
+    }
 
-    public void setEmailConfirmed(Boolean emailConfirmed) { this.emailConfirmed = emailConfirmed; }
+    public void setEmailConfirmed(Boolean emailConfirmed) {
+        this.emailConfirmed = emailConfirmed;
+    }
 }

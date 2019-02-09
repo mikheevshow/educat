@@ -27,10 +27,13 @@ public class ArticleServiceImpl implements ArticleService {
         this.accountService = accountService;
     }
 
-    public ArticleServiceImpl() {};
+    public ArticleServiceImpl() {
+    }
+
+    ;
 
     @Override
-    public void publishArticle(@NonNull final Account account,@NonNull final Article article) {
+    public void publishArticle(@NonNull final Account account, @NonNull final Article article) {
 
     }
 

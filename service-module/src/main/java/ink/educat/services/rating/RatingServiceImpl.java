@@ -9,6 +9,9 @@ public class RatingServiceImpl implements RatingService {
 
     private static final Logger logger = LoggerFactory.getLogger(RatingServiceImpl.class);
 
-    public RatingServiceImpl () {};
+    public RatingServiceImpl() {
+    }
+
+    ;
 
 }

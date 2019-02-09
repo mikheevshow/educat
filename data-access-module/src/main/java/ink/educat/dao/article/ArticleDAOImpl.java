@@ -19,7 +19,10 @@ public class ArticleDAOImpl implements ArticleDAO {
         this.sessionFactory = sessionFactory;
     }
 
-    public ArticleDAOImpl() {};
+    public ArticleDAOImpl() {
+    }
+
+    ;
 
     @Override
     public String sendArticleToModeration(Article article) {

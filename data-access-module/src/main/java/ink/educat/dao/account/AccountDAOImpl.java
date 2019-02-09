@@ -17,6 +17,9 @@ public class AccountDAOImpl implements AccountDAO {
         this.sessionFactory = sessionFactory;
     }
 
-    public AccountDAOImpl() {};
+    public AccountDAOImpl() {
+    }
+
+    ;
 
 }

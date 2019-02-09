@@ -19,7 +19,10 @@ public class TaskDAOImpl implements TaskDAO {
         this.sessionFactory = sessionFactory;
     }
 
-    public TaskDAOImpl () {};
+    public TaskDAOImpl() {
+    }
+
+    ;
 
     @Override
     public GeneralTaskEntity findById(long id) {

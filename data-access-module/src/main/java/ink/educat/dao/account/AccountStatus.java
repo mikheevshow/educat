@@ -1,6 +1,6 @@
 package ink.educat.dao.account;
 
-public enum  AccountStatus {
+public enum AccountStatus {
     VALID,
     BLOCKED,
     DELETED

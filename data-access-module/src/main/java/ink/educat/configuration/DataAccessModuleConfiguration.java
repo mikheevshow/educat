@@ -52,7 +52,7 @@ public class DataAccessModuleConfiguration {
         return transactionManager;
     }
 
-    private Properties hibernateProperties(){
+    private Properties hibernateProperties() {
         Properties properties = new Properties();
         properties.put("hibernate.dialect", "org.hibernate.dialect.PostgresPlusDialect");
 

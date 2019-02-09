@@ -9,6 +9,9 @@ public class AchievementServiceImpl implements AchievementService {
 
     private static final Logger logger = LoggerFactory.getLogger(AchievementServiceImpl.class);
 
-    public AchievementServiceImpl () {};
+    public AchievementServiceImpl() {
+    }
+
+    ;
 
 }

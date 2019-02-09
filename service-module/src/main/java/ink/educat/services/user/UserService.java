@@ -1,4 +1,5 @@
 package ink.educat.services.user;
+
 import ink.educat.dao.user.User;
 
 import java.util.Collection;
@@ -13,6 +14,7 @@ public interface UserService {
 
     /**
      * Блокирует пользователя на портале
+     *
      * @param user - пользователь
      * @throws ink.educat.exceptions.UserBadOperationResultException
      */
@@ -20,6 +22,7 @@ public interface UserService {
 
     /**
      * Блокирует пользователей на портале
+     *
      * @param users - пользователь
      * @throws ink.educat.exceptions.UserBadOperationResultException
      */
@@ -27,6 +30,7 @@ public interface UserService {
 
     /**
      * Проверяет заблокирован ли пользователь
+     *
      * @param user - пользователь
      * @return true/false - заблокирован/незаблокирован
      */
@@ -34,7 +38,8 @@ public interface UserService {
 
     /**
      * Позволяет менять рейтинг пользователя
-     * @param user - пользователь
+     *
+     * @param user   - пользователь
      * @param rating - абсолютное значение рейтинга
      * @throws IllegalStateException
      */
@@ -42,7 +47,8 @@ public interface UserService {
 
     /**
      * Добавляет пользователю очки рейтинга
-     * @param user - пользователь
+     *
+     * @param user   - пользователь
      * @param rating - рейтинг, который нужно добавить к текущему
      */
     void addRatingForUser(User user, long rating);

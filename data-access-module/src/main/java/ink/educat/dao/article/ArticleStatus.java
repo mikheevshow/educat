@@ -14,7 +14,10 @@ public enum ArticleStatus {
     EDITED("Пост редактируется");
 
     private String status;
-    ArticleStatus(String status) { this.status = status; }
+
+    ArticleStatus(String status) {
+        this.status = status;
+    }
 
     public String getStatus() {
         return status;

@@ -24,7 +24,10 @@ public class UGEServiceImpl implements UGEService {
         this.taskDAO = taskDAO;
     }
 
-    public UGEServiceImpl () {};
+    public UGEServiceImpl() {
+    }
+
+    ;
 
 
 }

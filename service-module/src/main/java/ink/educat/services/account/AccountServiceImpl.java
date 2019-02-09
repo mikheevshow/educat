@@ -10,7 +10,8 @@ public class AccountServiceImpl implements AccountService {
     private static final Logger logger = LoggerFactory.getLogger(AccountServiceImpl.class);
     private AccountDAO accountDAO;
 
-    public AccountServiceImpl() { }
+    public AccountServiceImpl() {
+    }
 
     public AccountDAO getAccountDAO() {
         return accountDAO;

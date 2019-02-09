@@ -26,7 +26,10 @@ public class UserServiceImpl implements UserService {
         this.userDAO = userDAO;
     }
 
-    public UserServiceImpl () {};
+    public UserServiceImpl() {
+    }
+
+    ;
 
     @Override
     public User findUserByPhone(String phone) {

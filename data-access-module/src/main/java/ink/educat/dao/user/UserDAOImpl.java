@@ -21,7 +21,10 @@ public class UserDAOImpl implements UserDAO {
         this.sessionFactory = sessionFactory;
     }
 
-    public UserDAOImpl () {};
+    public UserDAOImpl() {
+    }
+
+    ;
 
     @Override
     public User findById(long id) {

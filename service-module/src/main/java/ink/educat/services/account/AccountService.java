@@ -15,23 +15,25 @@ public interface AccountService {
 
     /**
      * Присваивает передаваемому аккаунту статус {@link ink.educat.dao.account.AccountStatus#BLOCKED}
+     *
      * @param account
      */
     void blockAccount(@NonNull Account account);
 
     /**
      * Присваивает совокупности передаваемых аккаунтов статус {@link ink.educat.dao.account.AccountStatus#BLOCKED}
+     *
      * @param accounts - структра данных, хранящая аккаунты
      */
     void blockAccounts(@NonNull Iterable<Account> accounts);
 
     /**
      * Позволяет менять права пользователя
+     *
      * @param account
      * @param role
      */
     void changeAccountRole(@NonNull Account account, @NonNull AccountRole role);
-
 
 
 }

@@ -4,6 +4,7 @@ import java.util.Collection;
 
 /**
  * Абстрактный интерфейс DAO, все остальные интерфейсы DAO наследуются от него
+ *
  * @param <Entity>
  */
 public interface AbstractDAO<Entity> {
