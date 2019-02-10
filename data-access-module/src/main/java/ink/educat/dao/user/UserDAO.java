@@ -1,25 +1,14 @@
 package ink.educat.dao.user;
 
 import ink.educat.core.AbstractDAO;
-import org.springframework.lang.NonNull;
-import org.springframework.lang.Nullable;
 
-import java.time.LocalDate;
-
+/**
+ * Основная часть получения обновления и сохранения сущностей работает через Hibernate по принципу CRUD,
+ * по-этому для его реализации каждый DAO интерфейс наследуется от {@link ink.educat.core.AbstractDAO}.
+ * В связи с этим все DAO интерфейсы должны содержать только те методы, которые не подчиняются принципу CRUD
+ * и требуют, например, написания отдельных запросов к базе данных.
+ */
 public interface UserDAO extends AbstractDAO<User> {
 
-    void updateUserFirstName(@NonNull User user, @NonNull String firstName);
-
-    void updateUserSecondName(@NonNull User user, @NonNull String secondName);
-
-    void updateUserMiddleName(@NonNull User user, @Nullable String firstName);
-
-    void updateUserEmail(@NonNull User user, @NonNull String email);
-
-    void updateUserEmailConfirmationStatus(@NonNull User user, @NonNull Boolean status);
-
-    void updateUserBirthDate(@NonNull User user, @NonNull LocalDate birthDate);
-
-    void updateUserPhone(@NonNull User user, @NonNull String phone);
 
 }

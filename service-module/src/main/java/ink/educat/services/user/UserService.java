@@ -17,6 +17,7 @@ public interface UserService {
      *
      * @param user - пользователь
      * @throws ink.educat.exceptions.UserBadOperationResultException
+     * @throws ink.educat.exceptions.NoEnoughPermissionsException
      */
     void blockUser(User user);
 
