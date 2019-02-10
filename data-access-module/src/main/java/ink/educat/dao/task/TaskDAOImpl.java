@@ -22,7 +22,6 @@ public class TaskDAOImpl implements TaskDAO {
     public TaskDAOImpl() {
     }
 
-    ;
 
     @Override
     public GeneralTaskEntity findById(long id) {

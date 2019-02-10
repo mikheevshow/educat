@@ -1,6 +1,9 @@
 package ink.educat.dao.user;
 
 import ink.educat.core.AbstractDAO;
+import org.springframework.lang.NonNull;
+
+import java.util.Optional;
 
 /**
  * Основная часть получения обновления и сохранения сущностей работает через Hibernate по принципу CRUD,
@@ -10,5 +13,11 @@ import ink.educat.core.AbstractDAO;
  */
 public interface UserDAO extends AbstractDAO<User> {
 
+    /**
+     * Позволяет найти пользователя по номеру телефона
+     * @param phone - номер телефона
+     * @return - опциональный тип User, требуется проверка isPresent()
+     */
+    Optional<User> findUserByPhone(@NonNull String phone);
 
 }

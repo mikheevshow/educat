@@ -15,11 +15,6 @@ import java.util.Collection;
 @Repository
 public class AccountDAOImpl implements AccountDAO {
 
-    private static final String FIND_ACCOUNTS_WITH_ROLE =
-            "SELECT * FROM ACCOUNTS" +
-            " WHERE 1=1" +
-            " AND ACCOUNTS.ROLE = :role";
-
     private static final Logger logger = LoggerFactory.getLogger(AccountDAOImpl.class);
     private SessionFactory sessionFactory;
 
@@ -29,5 +24,13 @@ public class AccountDAOImpl implements AccountDAO {
     }
 
     public AccountDAOImpl() { }
+
+    private static final String FIND_ACCOUNTS_WITH_ROLE =
+            "SELECT * FROM ACCOUNTS" +
+                    " WHERE 1=1" +
+                    " AND ACCOUNTS.ROLE = :role";
+
+
+
 
 }

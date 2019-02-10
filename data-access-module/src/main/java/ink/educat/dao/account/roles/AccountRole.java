@@ -1,11 +1,11 @@
-package ink.educat.dao.account;
+package ink.educat.dao.account.roles;
 
 public enum AccountRole {
     SUPER_USER(0, "Суперпользователь"),
     SCHOOL(1, "Школьник"),
     STUDENT(2, "Студент"),
     TEACHER(3, "Учитель"),
-    BLOGGER(4, "Блоггер"),
+    WRITER(4, "Писатель"),
     ARTICLE_MODERATOR(5, "Модератор постов"),
     EDU_ORGANIZATION_MEMBER(6, "Представитель образовательной организации"),
     ADMIN(7, "Администратор");

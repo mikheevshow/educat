@@ -1,7 +1,7 @@
 package ink.educat.services.account;
 
 import ink.educat.dao.account.Account;
-import ink.educat.dao.account.AccountRole;
+import ink.educat.dao.account.roles.AccountRole;
 import ink.educat.dao.account.AccountStatus;
 import org.springframework.lang.NonNull;
 

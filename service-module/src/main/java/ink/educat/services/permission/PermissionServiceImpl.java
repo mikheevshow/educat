@@ -1,7 +1,7 @@
 package ink.educat.services.permission;
 
 import ink.educat.dao.account.Account;
-import ink.educat.dao.account.AccountRole;
+import ink.educat.dao.account.roles.AccountRole;
 import org.springframework.lang.NonNull;
 
 public class PermissionServiceImpl implements PermissionService {

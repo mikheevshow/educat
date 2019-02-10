@@ -1,5 +1,6 @@
 package ink.educat.dao.account;
 
+import ink.educat.dao.account.roles.AccountRole;
 import ink.educat.dao.user.User;
 
 import javax.persistence.*;
@@ -23,6 +24,9 @@ public class Account {
     @Column(name = "ACCOUNT_PASSWORD", nullable = false)
     private String password;
 
+    @Column(name = "EMAIL")
+    private String email;
+
     @Column(name = "EMAIL_CONFIRMED")
     private Boolean emailConfirmed;
 
@@ -34,6 +38,10 @@ public class Account {
     @Column(name = "STATUS", nullable = false)
     private AccountStatus status;
 
+//    @Enumerated(EnumType.ORDINAL)
+//    @ManyToOne(fetch = FetchType.EAGER)
+//    private AccountRole role;
+
     @Column(name = "CREATION_DATE", nullable = false)
     private LocalDateTime creationTime;
 
@@ -43,67 +51,7 @@ public class Account {
     public Account() {
     }
 
-    public long getId() {
-        return id;
-    }
 
-    public void setId(long id) {
-        this.id = id;
-    }
 
-    public String getUsername() {
-        return username;
-    }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public AccountStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(AccountStatus status) {
-        this.status = status;
-    }
-
-    public LocalDateTime getCreationTime() {
-        return creationTime;
-    }
-
-    public void setCreationTime(LocalDateTime creationTime) {
-        this.creationTime = creationTime;
-    }
-
-    public LocalDateTime getLastLoginDate() {
-        return lastLoginDate;
-    }
-
-    public void setLastLoginDate(LocalDateTime lastLoginDate) {
-        this.lastLoginDate = lastLoginDate;
-    }
-
-    public Boolean getEmailConfirmed() {
-        return emailConfirmed;
-    }
-
-    public void setEmailConfirmed(Boolean emailConfirmed) {
-        this.emailConfirmed = emailConfirmed;
-    }
 }

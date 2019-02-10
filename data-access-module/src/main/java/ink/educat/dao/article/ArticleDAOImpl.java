@@ -1,11 +1,13 @@
 package ink.educat.dao.article;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 @Repository
@@ -21,8 +23,6 @@ public class ArticleDAOImpl implements ArticleDAO {
 
     public ArticleDAOImpl() {
     }
-
-    ;
 
     @Override
     public String sendArticleToModeration(Article article) {
@@ -57,14 +57,26 @@ public class ArticleDAOImpl implements ArticleDAO {
 
     @Override
     public Article findById(long id) {
+        final Session session = sessionFactory.openSession();
+        final Article article = session.get(Article.class, id);
+        session.close();
 
-        return null;
+        return article;
     }
 
     @Override
     public Collection<Article> findByIDs(long[] ids) {
+        final Collection<Article> articles = new ArrayList<>();
+        final Session session = sessionFactory.openSession();
+        for (long id : ids) {
+            final Article article = session.get(Article.class, id);
+            if (article != null) {
+                articles.add(article);
+            }
+        }
+        session.close();
 
-        return null;
+        return articles;
     }
 
     @Override
