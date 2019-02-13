@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.Collection;
+import java.util.Optional;
 
 @Repository
 @Transactional
@@ -43,41 +44,8 @@ public class UserDAOImpl implements UserDAO {
      */
 
     @Override
-    public void updateUserFirstName(@NonNull final User user, @NonNull final String firstName) {
-        user.setFirstName(firstName);
-        saveOrUpdate(user);
-    }
-
-    @Override
-    public void updateUserSecondName(@NonNull final User user, @NonNull final String secondName) {
-        user.setSecondName(secondName);
-        saveOrUpdate(user);
-    }
-
-    @Override
-    public void updateUserMiddleName(User user, String middleName) {
-        user.setMiddleName(middleName);
-        saveOrUpdate(user);
-    }
-
-    @Override
-    public void updateUserEmail(User user, String email) {
-        user.setEmail(email);
-        saveOrUpdate(user);
-    }
-
-    @Override
-    public void updateUserEmailConfirmationStatus(User user, Boolean status) {
-    }
-
-    @Override
-    public void updateUserBirthDate(User user, LocalDate birthDate) {
-
-    }
-
-    @Override
-    public void updateUserPhone(User user, String phone) {
-
+    public Optional<User> findUserByPhone(String phone) {
+        return Optional.empty();
     }
 
     @Override

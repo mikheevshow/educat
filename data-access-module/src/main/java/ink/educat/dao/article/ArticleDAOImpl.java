@@ -25,19 +25,23 @@ public class ArticleDAOImpl implements ArticleDAO {
     }
 
     @Override
-    public String sendArticleToModeration(Article article) {
+    public void updateArticleStatus(Article article, ArticleStatus status) {
 
+    }
+
+    @Override
+    public void updateArticleContent(Article article, String content) {
+
+    }
+
+    @Override
+    public String sendArticleToModeration(Article article) {
         return null;
     }
 
     @Override
     public String sendArticleToModeration(Long id) {
         return null;
-    }
-
-    @Override
-    public void publishPost(Article article) {
-
     }
 
     @Override
@@ -55,6 +59,9 @@ public class ArticleDAOImpl implements ArticleDAO {
         return null;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public Article findById(long id) {
         final Session session = sessionFactory.openSession();
@@ -64,6 +71,9 @@ public class ArticleDAOImpl implements ArticleDAO {
         return article;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public Collection<Article> findByIDs(long[] ids) {
         final Collection<Article> articles = new ArrayList<>();
@@ -79,13 +89,22 @@ public class ArticleDAOImpl implements ArticleDAO {
         return articles;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void saveOrUpdate(Iterable<Article> posts) {
-
+        final Session session = sessionFactory.openSession();
+        while (posts.iterator().hasNext()) {
+            session.saveOrUpdate(posts.iterator().next());
+        }
+        session.close();
     }
 
     @Override
     public void saveOrUpdate(Article article) {
-
+        final Session session = sessionFactory.openSession();
+        session.saveOrUpdate(article);
+        session.close();
     }
 }

@@ -17,8 +17,18 @@ import java.util.Optional;
  */
 public interface AccountDAO extends AbstractDAO<Account> {
 
+    /**
+     * Позволяет найти пользователя по его никнейму
+     * @param username - имя пользователя(никнейм)
+     * @return - объект типа {@link ink.educat.dao.article.Article}
+     */
     Optional<Account> findByUserName(@NonNull String username);
 
+    /**
+     * Позволяет найти всех пользователей с данными ролями
+     * @param role - роль
+     * @return - коллекцию пользователей с данными ролями
+     */
     Collection<Account> findAllAccountsWithRole(@NonNull AccountRole role);
 
 }

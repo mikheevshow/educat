@@ -1,61 +1,50 @@
 package ink.educat.configuration;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
-import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
-import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
+import ink.educat.dao.account.Account;
+import ink.educat.dao.article.Article;
+import ink.educat.dao.task.GeneralTaskEntity;
+import ink.educat.dao.user.User;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-import javax.sql.DataSource;
-import java.util.Properties;
+import org.springframework.context.annotation.*;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * Конфигурация слоя доступа к данным.
- * Здесь конфигурируется DAO контекст приложения, а также Hibernate.
+ * Здесь конфигурируется DAO контекст приложения.
+ *
+ * В проекте используется Hibernate 5, поэтому разработчик должен учитывать
+ * особенности конфигурирования фабрики сеансов в данной версии, а также добавления
+ * новых сущностей при написании модулей DAO.
  */
 @Configuration
-@ComponentScan({"ink.educat"})
-@PropertySource({"classpath:hibernate.properties"})
+@ComponentScan({"ink.educat.dao"})
 @EnableTransactionManagement
 public class DataAccessModuleConfiguration {
 
-    /* Поднимаем фабрику сеансов и источник данных */
     @Bean
-    public LocalSessionFactoryBean sessionFactoryBean() {
-        LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
-        sessionFactoryBean.setDataSource(dataSource());
-        sessionFactoryBean.setHibernateProperties(hibernateProperties());
+    public StandardServiceRegistry standardServiceRegistry() {
 
-        return sessionFactoryBean;
+        return new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
     }
 
     @Bean
-    public DataSource dataSource() {
-        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("org.postgresql.Driver");
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/educat_test_db");
-        dataSource.setUsername("postgres");
-        dataSource.setPassword("postgres");
+    public Metadata metaData() {
 
-        return dataSource;
+        return new MetadataSources(standardServiceRegistry())
+                .addAnnotatedClass(Account.class)
+                .addAnnotatedClass(User.class)
+                .getMetadataBuilder()
+                .build();
     }
 
     @Bean
-    public PlatformTransactionManager hibernateTransactionManager() {
-        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
-        transactionManager.setSessionFactory(sessionFactoryBean().getObject());
+    public SessionFactory sessionFactory() {
 
-        return transactionManager;
-    }
-
-    private Properties hibernateProperties() {
-        Properties properties = new Properties();
-        properties.put("hibernate.dialect", "org.hibernate.dialect.PostgresPlusDialect");
-
-        return properties;
+        return metaData().buildSessionFactory();
     }
 }

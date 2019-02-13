@@ -3,7 +3,6 @@ package ink.educat.services.user;
 import ink.educat.dao.account.AccountStatus;
 import ink.educat.dao.user.User;
 import ink.educat.dao.user.UserDAO;
-import ink.educat.dao.user.UserStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,12 +51,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean userIsBlocked(User user) {
         return user.getAccount().getStatus() == AccountStatus.BLOCKED;
-    }
-
-    @Override
-    @Transactional
-    public void changeUserPermissions(User user, UserStatus status) {
-
     }
 
     @Override

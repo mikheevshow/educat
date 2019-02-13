@@ -50,7 +50,7 @@ public class User implements Serializable {
     @Column(name = "AVATAR_LINK")
     private String userAvatarLink;
 
-    private Account account;
+    //private Account account;
 
     public User() {
     }
@@ -95,14 +95,6 @@ public class User implements Serializable {
         this.email = email;
     }
 
-    public boolean isEmailConfirmed() {
-        return emailConfirmed;
-    }
-
-    public void setEmailConfirmed(boolean emailConfirmed) {
-        this.emailConfirmed = emailConfirmed;
-    }
-
     public Long getPhone() {
         return phone;
     }
@@ -143,13 +135,28 @@ public class User implements Serializable {
         this.instaLink = instaLink;
     }
 
-    public Account getAccount() {
-        return account;
+//    public Account getAccount() {
+//        return account;
+//    }
+//
+//    public void setAccount(Account account) {
+//        this.account = account;
+//    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", email='" + email + '\'' +
+                ", phone=" + phone +
+                ", birthDate=" + birthDate +
+                ", vkLink='" + vkLink + '\'' +
+                ", fbLink='" + fbLink + '\'' +
+                ", instaLink='" + instaLink + '\'' +
+                ", userAvatarLink='" + userAvatarLink + '\'' +
+                '}';
     }
-
-    public void setAccount(Account account) {
-        this.account = account;
-    }
-
-
 }
