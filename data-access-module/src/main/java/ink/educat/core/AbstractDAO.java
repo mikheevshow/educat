@@ -1,6 +1,9 @@
 package ink.educat.core;
 
+import org.springframework.lang.Nullable;
+
 import java.util.Collection;
+import java.util.Optional;
 
 /**
  * Абстрактный интерфейс DAO, все остальные интерфейсы DAO наследуются от него
@@ -9,12 +12,44 @@ import java.util.Collection;
  */
 public interface AbstractDAO<Entity> {
 
-    Entity findById(long id);
+    /**
+     * Ищет сущность по переданному id
+     *
+     * @param id - id сущности
+     * @return - сущность
+     * сущность, так и нет
+     */
+    @Nullable
+    Entity findById(final long id);
 
-    Collection<Entity> findByIDs(long[] ids);
+    /**
+     * Ищет сущности по переданным ids, не гарантирует, что количество найденных
+     * сущностей будет совпадать с количеством переданных id.
+     *
+     * @param ids - ids сущностей
+     * @return - коллекцию найденных сущностей
+     */
+    Collection<Entity> findByIDs(final Iterable<Long> ids);
 
-    void saveOrUpdate(Iterable<Entity> entities);
+    /**
+     * Выполняет батчевое сохранение сущностей, лежащих в коллекции
+     *
+     * @param entities - коллекция сущностей
+     */
+    void saveOrUpdate(final Iterable<Entity> entities);
 
-    void saveOrUpdate(Entity entity);
+    /**
+     * Выполняет сохранение/обновление сущности
+     *
+     * @param entity - сущность
+     */
+    void saveOrUpdate(final Entity entity);
+
+    /**
+     * Выполняет удаление сущности
+     *
+     * @param entity - сущность
+     */
+    void delete(final Entity entity);
 
 }

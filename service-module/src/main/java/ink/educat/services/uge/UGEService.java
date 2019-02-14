@@ -5,4 +5,5 @@ package ink.educat.services.uge;
  */
 public interface UGEService {
 
+    public
 }

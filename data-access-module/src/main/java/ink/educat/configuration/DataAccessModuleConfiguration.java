@@ -1,8 +1,6 @@
 package ink.educat.configuration;
 
 import ink.educat.dao.account.Account;
-import ink.educat.dao.article.Article;
-import ink.educat.dao.task.GeneralTaskEntity;
 import ink.educat.dao.user.User;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
@@ -11,15 +9,16 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import org.springframework.context.annotation.*;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * Конфигурация слоя доступа к данным.
- * Здесь конфигурируется DAO контекст приложения.
+ * <p>Конфигурация слоя доступа к данным.
+ * Здесь конфигурируется DAO контекст приложения.</p>
  *
- * В проекте используется Hibernate 5, поэтому разработчик должен учитывать
+ * <p>В проекте используется Hibernate 5, поэтому разработчик должен учитывать
  * особенности конфигурирования фабрики сеансов в данной версии, а также добавления
- * новых сущностей при написании модулей DAO.
+ * новых сущностей при написании модулей DAO.</p>
  */
 @Configuration
 @ComponentScan({"ink.educat.dao"})

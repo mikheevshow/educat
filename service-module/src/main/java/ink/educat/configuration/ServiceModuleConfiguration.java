@@ -8,12 +8,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * Конфигурация сервис слоя портала.
+ * <p>Конфигурация сервис слоя портала.
  * Здесь конфигурируется сервисный слой приложения + поднимается DAO контекст,
  * подробнее про конфигурацию DAO {@link ink.educat.configuration.DataAccessModuleConfiguration}
  * </p>
  *
- * @Author Илья Михеев
+ * @author Илья Михеев
  */
 @Configuration
 @ComponentScan("ink.educat.services")
@@ -22,6 +22,7 @@ public class ServiceModuleConfiguration {
 
     @Bean
     public DocumentService documentService() {
+
         return new DocumentServiceImpl();
     }
 

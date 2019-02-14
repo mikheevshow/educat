@@ -4,7 +4,6 @@ import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,14 +16,12 @@ import java.util.Optional;
 public class UserDAOImpl implements UserDAO {
 
     private static final Logger logger = LoggerFactory.getLogger(UserDAOImpl.class);
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     @Autowired
     public UserDAOImpl(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }
-
-    public UserDAOImpl() { }
 
     /**
      * Запросы к базе данных для сервиса UserDAO
@@ -44,8 +41,10 @@ public class UserDAOImpl implements UserDAO {
      */
 
     @Override
-    public Optional<User> findUserByPhone(String phone) {
-        return Optional.empty();
+    public User findUserByPhone(String phone) {
+        sessionFactory.openSession();
+
+        return null;
     }
 
     @Override
@@ -54,7 +53,7 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public Collection<User> findByIDs(long[] ids) {
+    public Collection<User> findByIDs(Iterable<Long> ids) {
         return null;
     }
 
@@ -65,6 +64,11 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public void saveOrUpdate(User user) {
+
+    }
+
+    @Override
+    public void delete(User user) {
 
     }
 }

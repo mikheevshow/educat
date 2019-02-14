@@ -33,4 +33,60 @@ public class Article implements Serializable {
 
     @Column(name = "TAGS")
     private String tags;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getHeader() {
+        return header;
+    }
+
+    public void setHeader(String header) {
+        this.header = header;
+    }
+
+    public String getArticleText() {
+        return articleText;
+    }
+
+    public void setArticleText(String articleText) {
+        this.articleText = articleText;
+    }
+
+    public LocalDateTime getCreationDate() {
+        return creationDate;
+    }
+
+    public void setCreationDate(LocalDateTime creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
+    public ArticleStatus getArticleStatus() {
+        return articleStatus;
+    }
+
+    public void setArticleStatus(ArticleStatus articleStatus) {
+        this.articleStatus = articleStatus;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
 }

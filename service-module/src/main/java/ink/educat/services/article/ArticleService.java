@@ -2,7 +2,10 @@ package ink.educat.services.article;
 
 import ink.educat.dao.account.Account;
 import ink.educat.dao.article.Article;
+import ink.educat.exceptions.BadArticleOperationException;
 import org.springframework.lang.NonNull;
+
+import java.util.Collection;
 
 /**
  * Сервис для работы с публикациями
@@ -15,7 +18,7 @@ public interface ArticleService {
      * @param article - пост
      * @throws ink.educat.exceptions.BadArticleOperationException
      */
-    void publishArticle(@NonNull Account account, Article article);
+    void publishArticle(@NonNull final Account account, @NonNull final Article article);
 
     /**
      * Блокирует публикацию, [публикация] убирается из ленты и становится недоступна по ссылкам и поиску в приложении.
@@ -25,7 +28,7 @@ public interface ArticleService {
      * @param article - публикация
      * @throws ink.educat.exceptions.BadArticleOperationException
      */
-    void blockTheArticle(@NonNull Account account, @NonNull Article article);
+    void blockTheArticle(@NonNull final Account account, @NonNull final Article article);
 
     /**
      * Разблокирует публикацию, действие этого метода обратное к методу {@link ArticleService#blockTheArticle(Account, Article)}
@@ -35,7 +38,7 @@ public interface ArticleService {
      * @param article - публикация
      * @throws ink.educat.exceptions.BadArticleOperationException
      */
-    void unblockTheArticle(@NonNull Account account, @NonNull Article article);
+    void unblockTheArticle(@NonNull final Account account, @NonNull final Article article);
 
     /**
      * Посылает пост на модерацию и присваивает посту сатус {@link ink.educat.dao.article.ArticleStatus#MODERATION}
@@ -44,7 +47,7 @@ public interface ArticleService {
      * @return - сообщение об успшности/неуспешности отправки на модерацию
      * @throws ink.educat.exceptions.BadArticleOperationException
      */
-    public String sendArticleToModeration(@NonNull Account account, @NonNull Article article);
+    public String sendArticleToModeration(@NonNull final Account account, @NonNull final Article article);
 
     /**
      * Удаляет пост и присваивает ссылающемуся на него id в базе данных в соответстующей таблице статус
@@ -54,13 +57,13 @@ public interface ArticleService {
      * @param article - публикация
      * @throws ink.educat.exceptions.BadArticleOperationException
      */
-    public void deleteArticle(@NonNull Account account, @NonNull Article article);
-
+    public void deleteArticle(@NonNull final Account account, @NonNull final Article article);
 
     /**
-     * Добавляет новый пост в личное пространство Редактора(в данном случае в личное пространство человека,
-     * котрый хочет написать пост) и присваевает посту статус "ON_EDIT"(на редактировании)
+     * Поиск статей по тегам
+     *
+     * @param tags - теги
+     * @return - коллекцию статей
      */
-    public Article addArticle();
-
+    public Collection<Article> findArticlesByTags(@NonNull final String...tags);
 }

@@ -15,19 +15,14 @@ import org.springframework.stereotype.Service;
 public class UGEServiceImpl implements UGEService {
 
     private static final Logger logger = LoggerFactory.getLogger(UGEServiceImpl.class);
-    private UserService userService;
-    private TaskDAO taskDAO;
+    private final UserService userService;
+    private final TaskDAO taskDAO;
 
     @Autowired
     public UGEServiceImpl(UserService userService, TaskDAO taskDAO) {
+
         this.userService = userService;
         this.taskDAO = taskDAO;
     }
-
-    public UGEServiceImpl() {
-    }
-
-    ;
-
 
 }

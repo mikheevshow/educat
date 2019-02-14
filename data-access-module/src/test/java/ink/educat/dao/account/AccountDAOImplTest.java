@@ -1,30 +1,42 @@
 package ink.educat.dao.account;
 
 import ink.educat.configuration.DataAccessModuleConfiguration;
+import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
-@ContextConfiguration(classes = {AccountDAOTestContext.class})
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = {DataAccessModuleConfiguration.class})
 public class AccountDAOImplTest {
 
-
-
     @Autowired
+    @Qualifier("accountDAOImpl")
     private AccountDAO accountDAO;
 
     @Test
-    public void testSaveOrUpdate() {
-        final Account account = new Account();
-        account.setStatus(AccountStatus.VALID);
-        account.setId(2L);
-        account.setCreationTime(LocalDateTime.now());
-        account.setEmailConfirmed(false);
+    public void testFindById() {
 
-        accountDAO.saveOrUpdate(account);
+        final Account account = accountDAO.findById(3L);
+
+        Assert.assertNull(account);
+    }
+
+    @Test
+    public void testFindByIds() {
+
+        final List<Long> ids = new ArrayList<>();
+        ids.add(1L);
+        final Collection accounts = accountDAO.findByIDs(ids);
+
+        Assert.assertEquals(1, accounts.size());
     }
 
 }

@@ -18,6 +18,6 @@ public interface UserDAO extends AbstractDAO<User> {
      * @param phone - номер телефона
      * @return - опциональный тип User, требуется проверка isPresent()
      */
-    Optional<User> findUserByPhone(@NonNull String phone);
+    User findUserByPhone(@NonNull String phone);
 
 }

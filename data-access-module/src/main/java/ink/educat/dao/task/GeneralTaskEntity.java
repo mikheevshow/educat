@@ -8,6 +8,4 @@ import java.io.Serializable;
 @Entity
 @Table(name = "TASKS")
 public class GeneralTaskEntity implements Serializable {
-
-
 }

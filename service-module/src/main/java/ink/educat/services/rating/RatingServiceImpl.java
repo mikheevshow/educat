@@ -12,6 +12,4 @@ public class RatingServiceImpl implements RatingService {
     public RatingServiceImpl() {
     }
 
-    ;
-
 }

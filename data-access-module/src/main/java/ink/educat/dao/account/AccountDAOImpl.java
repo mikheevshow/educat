@@ -8,18 +8,24 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.Optional;
 
 /**
  * Репозиторий для работы с {@link ink.educat.dao.account.Account}.
  * Подробное описание методов смотри в {@link ink.educat.dao.account.AccountDAO}.
+ *
+ * Если вы видите, что Hibernate использует неоптимальные запросы, тогда воспользуйтесь
+ * более низким встроенным в Hibernate - JDBC уровнем, для отправки native запросов к базе.
+ * В подобных случаях не стоит сохранять красоту ради красоты.
  */
 @Repository
 public class AccountDAOImpl implements AccountDAO {
 
     private static final Logger logger = LoggerFactory.getLogger(AccountDAOImpl.class);
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     @Autowired
     public AccountDAOImpl(SessionFactory sessionFactory) {
@@ -45,8 +51,10 @@ public class AccountDAOImpl implements AccountDAO {
      */
     @Override
     public Optional<Account> findByUserName(String username) {
-        Session session = sessionFactory.openSession();
+
+        final Session session = sessionFactory.openSession();
         session.close();
+
         return null;
     }
 
@@ -62,9 +70,10 @@ public class AccountDAOImpl implements AccountDAO {
      * {@inheritDoc}
      */
     @Override
-    public Account findById(long id) {
+    public Account findById(final long id) {
+
         final Session session = sessionFactory.openSession();
-        final Account account = session.get(Account.class, id);
+        final Account account = session.find(Account.class, id);
         session.close();
 
         return account;
@@ -74,8 +83,12 @@ public class AccountDAOImpl implements AccountDAO {
      * {@inheritDoc}
      */
     @Override
-    public Collection<Account> findByIDs(long[] ids) {
-        return null;
+    public Collection<Account> findByIDs(Iterable<Long> ids) {
+
+        final Collection<Account> collection = new ArrayList<>();
+        ids.forEach(id -> collection.add((findById(id) != null) ? findById(id) : new Account()));
+
+        return collection;
     }
 
     /**
@@ -83,6 +96,7 @@ public class AccountDAOImpl implements AccountDAO {
      */
     @Override
     public void saveOrUpdate(Iterable<Account> accounts) {
+
         while (accounts.iterator().hasNext()) {
             this.saveOrUpdate(accounts.iterator().next());
         }
@@ -93,8 +107,20 @@ public class AccountDAOImpl implements AccountDAO {
      */
     @Override
     public void saveOrUpdate(Account account) {
+
         final Session session = sessionFactory.openSession();
         session.saveOrUpdate(account);
+        session.close();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void delete(Account account) {
+
+        final Session session = sessionFactory.openSession();
+        session.delete(account);
         session.close();
     }
 }
