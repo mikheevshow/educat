@@ -8,12 +8,16 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 /**
- * <p>Отражает элемент списка в приложении при запросе методов, возвращяющих <code>Collection<PublicationListItem></code>.
- * Сериализуется/десериализуется в/из JSON. Используется при общении с клиентом.</p>
+ * <p>Отражает элемент списка публикаций на клиенте. Сериализуется/десериализуется в/из JSON.
+ *
+ * Внимание! При внесение изменений в данный класс, желательно перегенерировать serialVersionUID.</p>
  */
 public class PublicationListItem implements Serializable {
 
-    private static final long serialVersionUID = -2279305672617139763L;
+    private static final long serialVersionUID = 6937374422811981978L;
+
+    @NonNull
+    private long id;
 
     @NonNull
     private String Header;
@@ -36,55 +40,78 @@ public class PublicationListItem implements Serializable {
     public PublicationListItem() {
     }
 
+    public long getId() {
+
+        return id;
+    }
+
+    public void setId(long id) {
+
+        this.id = id;
+    }
+
     public static long getSerialVersionUID() {
+
         return serialVersionUID;
     }
 
     public String getHeader() {
+
         return Header;
     }
 
     public void setHeader(String header) {
+
         Header = header;
     }
 
     public String getImageLink() {
+
         return imageLink;
     }
 
     public void setImageLink(String imageLink) {
+
         this.imageLink = imageLink;
     }
 
     public String getAuthorInitials() {
+
         return authorInitials;
     }
 
     public void setAuthorInitials(String authorInitials) {
+
         this.authorInitials = authorInitials;
     }
 
     public LocalDate getPublicationDate() {
+
         return publicationDate;
     }
 
     public void setPublicationDate(LocalDate publicationDate) {
+
         this.publicationDate = publicationDate;
     }
 
     public LocalTime getReadingTime() {
+
         return readingTime;
     }
 
     public void setReadingTime(LocalTime readingTime) {
+
         this.readingTime = readingTime;
     }
 
     public String getTag() {
+
         return Tag;
     }
 
     public void setTag(String tag) {
+
         Tag = tag;
     }
 }
