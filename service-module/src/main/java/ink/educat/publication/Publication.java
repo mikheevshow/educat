@@ -1,13 +1,14 @@
 package ink.educat.publication;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Publication implements Serializable {
 
-    private static final long serialVersionUID = 334703827417070598L;
+    private String Header;
 
-    private
+    private List<CommentListItem> comments;
 
-    private boolean suggestedTopic;
+    private int likesAmount;
 
 }

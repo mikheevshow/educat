@@ -11,4 +11,5 @@ public interface Feed extends Publishable {
     Collection<PublicationListItem> showNewsPublicationList();
 
     Collection<PublicationListItem> topicsListForUser();
+
 }

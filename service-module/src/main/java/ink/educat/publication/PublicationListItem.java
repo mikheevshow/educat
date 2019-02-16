@@ -1,5 +1,8 @@
 package ink.educat.publication;
 
+import org.springframework.lang.NonNull;
+import org.springframework.lang.Nullable;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -12,16 +15,22 @@ public class PublicationListItem implements Serializable {
 
     private static final long serialVersionUID = -2279305672617139763L;
 
+    @NonNull
     private String Header;
 
+    @Nullable
     private String imageLink;
 
+    @Nullable
     private String authorInitials;
 
+    @Nullable
     private LocalDate publicationDate;
 
+    @Nullable
     private LocalTime readingTime;
 
+    @Nullable
     private String Tag;
 
     public PublicationListItem() {
