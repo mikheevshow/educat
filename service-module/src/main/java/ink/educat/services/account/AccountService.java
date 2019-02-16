@@ -3,7 +3,6 @@ package ink.educat.services.account;
 import ink.educat.dao.account.Account;
 import ink.educat.dao.account.roles.AccountRole;
 import ink.educat.dao.account.AccountStatus;
-import ink.educat.exceptions.NoEnoughPermissionsException;
 import org.springframework.lang.NonNull;
 
 import java.util.Collection;
@@ -65,4 +64,12 @@ public interface AccountService {
      * @return - true/false (соответствует/несоответсвует)
      */
     boolean isAccountCorrespondsToRoles(@NonNull final Account account, @NonNull final AccountRole... roles);
+
+    /**
+     * Позволяет получить все подписки пользователя
+     *
+     * @param account - аккаунт
+     * @return Коллекцию подписок пользователя
+     */
+    Collection<Subscription> checkAccountSubscriptions(@NonNull final Account account);
 }

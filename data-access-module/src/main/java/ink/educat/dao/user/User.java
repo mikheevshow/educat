@@ -16,6 +16,8 @@ import java.time.LocalDate;
 @Table(name = "USERS", schema = "PUBLIC")
 public class User implements Serializable {
 
+    private static final long serialVersionUID = 2424516030192447869L;
+
     @Id
     @Column(name = "id", nullable = false)
     private long id;

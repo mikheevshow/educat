@@ -14,6 +14,8 @@ import java.time.LocalDateTime;
 @Table(name = "ACCOUNTS")
 public class Account implements Serializable {
 
+    private static final long serialVersionUID = 6200389384923820808L;
+
     @Id
     @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

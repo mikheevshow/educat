@@ -17,6 +17,7 @@
         <module>data-access-module</module>
         <module>service-module</module>
         <module>sql_migration</module>
+        <module>mvc-module</module>
     </modules>
 
     <dependencies>
